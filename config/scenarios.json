@@ -1,0 +1,233 @@
+[
+  {
+    "theme_id": "AI",
+    "scenario": "Conservative",
+    "base_year": 2026,
+    "early_end": 2030,
+    "end_year": 2036,
+    "early_growth": 0.05,
+    "late_growth": 0.03,
+    "basis": "analyst_assumption",
+    "rationale": "Illustrative sensitivity range for training and inference acceleration. Not a fitted or externally published market forecast."
+  },
+  {
+    "theme_id": "AI",
+    "scenario": "Base",
+    "base_year": 2026,
+    "early_end": 2030,
+    "end_year": 2036,
+    "early_growth": 0.12,
+    "late_growth": 0.08,
+    "basis": "analyst_assumption",
+    "rationale": "Illustrative sensitivity range for training and inference acceleration. Not a fitted or externally published market forecast."
+  },
+  {
+    "theme_id": "AI",
+    "scenario": "Accelerated",
+    "base_year": 2026,
+    "early_end": 2030,
+    "end_year": 2036,
+    "early_growth": 0.18,
+    "late_growth": 0.12,
+    "basis": "analyst_assumption",
+    "rationale": "Illustrative sensitivity range for training and inference acceleration. Not a fitted or externally published market forecast."
+  },
+  {
+    "theme_id": "MEM",
+    "scenario": "Conservative",
+    "base_year": 2026,
+    "early_end": 2030,
+    "end_year": 2036,
+    "early_growth": 0.04,
+    "late_growth": 0.02,
+    "basis": "analyst_assumption",
+    "rationale": "Illustrative sensitivity range for bandwidth and capacity requirements. Not a fitted or externally published market forecast."
+  },
+  {
+    "theme_id": "MEM",
+    "scenario": "Base",
+    "base_year": 2026,
+    "early_end": 2030,
+    "end_year": 2036,
+    "early_growth": 0.1,
+    "late_growth": 0.07,
+    "basis": "analyst_assumption",
+    "rationale": "Illustrative sensitivity range for bandwidth and capacity requirements. Not a fitted or externally published market forecast."
+  },
+  {
+    "theme_id": "MEM",
+    "scenario": "Accelerated",
+    "base_year": 2026,
+    "early_end": 2030,
+    "end_year": 2036,
+    "early_growth": 0.16,
+    "late_growth": 0.11,
+    "basis": "analyst_assumption",
+    "rationale": "Illustrative sensitivity range for bandwidth and capacity requirements. Not a fitted or externally published market forecast."
+  },
+  {
+    "theme_id": "NET",
+    "scenario": "Conservative",
+    "base_year": 2026,
+    "early_end": 2030,
+    "end_year": 2036,
+    "early_growth": 0.04,
+    "late_growth": 0.02,
+    "basis": "analyst_assumption",
+    "rationale": "Illustrative sensitivity range for larger connected compute systems. Not a fitted or externally published market forecast."
+  },
+  {
+    "theme_id": "NET",
+    "scenario": "Base",
+    "base_year": 2026,
+    "early_end": 2030,
+    "end_year": 2036,
+    "early_growth": 0.09,
+    "late_growth": 0.07,
+    "basis": "analyst_assumption",
+    "rationale": "Illustrative sensitivity range for larger connected compute systems. Not a fitted or externally published market forecast."
+  },
+  {
+    "theme_id": "NET",
+    "scenario": "Accelerated",
+    "base_year": 2026,
+    "early_end": 2030,
+    "end_year": 2036,
+    "early_growth": 0.14,
+    "late_growth": 0.1,
+    "basis": "analyst_assumption",
+    "rationale": "Illustrative sensitivity range for larger connected compute systems. Not a fitted or externally published market forecast."
+  },
+  {
+    "theme_id": "PWR",
+    "scenario": "Conservative",
+    "base_year": 2026,
+    "early_end": 2030,
+    "end_year": 2036,
+    "early_growth": 0.02,
+    "late_growth": 0.02,
+    "basis": "analyst_assumption",
+    "rationale": "Illustrative sensitivity range for conversion efficiency and electrification. Not a fitted or externally published market forecast."
+  },
+  {
+    "theme_id": "PWR",
+    "scenario": "Base",
+    "base_year": 2026,
+    "early_end": 2030,
+    "end_year": 2036,
+    "early_growth": 0.07,
+    "late_growth": 0.06,
+    "basis": "analyst_assumption",
+    "rationale": "Illustrative sensitivity range for conversion efficiency and electrification. Not a fitted or externally published market forecast."
+  },
+  {
+    "theme_id": "PWR",
+    "scenario": "Accelerated",
+    "base_year": 2026,
+    "early_end": 2030,
+    "end_year": 2036,
+    "early_growth": 0.11,
+    "late_growth": 0.09,
+    "basis": "analyst_assumption",
+    "rationale": "Illustrative sensitivity range for conversion efficiency and electrification. Not a fitted or externally published market forecast."
+  },
+  {
+    "theme_id": "EDGE",
+    "scenario": "Conservative",
+    "base_year": 2026,
+    "early_end": 2030,
+    "end_year": 2036,
+    "early_growth": 0.02,
+    "late_growth": 0.02,
+    "basis": "analyst_assumption",
+    "rationale": "Illustrative sensitivity range for intelligence near sensors and devices. Not a fitted or externally published market forecast."
+  },
+  {
+    "theme_id": "EDGE",
+    "scenario": "Base",
+    "base_year": 2026,
+    "early_end": 2030,
+    "end_year": 2036,
+    "early_growth": 0.06,
+    "late_growth": 0.06,
+    "basis": "analyst_assumption",
+    "rationale": "Illustrative sensitivity range for intelligence near sensors and devices. Not a fitted or externally published market forecast."
+  },
+  {
+    "theme_id": "EDGE",
+    "scenario": "Accelerated",
+    "base_year": 2026,
+    "early_end": 2030,
+    "end_year": 2036,
+    "early_growth": 0.1,
+    "late_growth": 0.1,
+    "basis": "analyst_assumption",
+    "rationale": "Illustrative sensitivity range for intelligence near sensors and devices. Not a fitted or externally published market forecast."
+  },
+  {
+    "theme_id": "IND",
+    "scenario": "Conservative",
+    "base_year": 2026,
+    "early_end": 2030,
+    "end_year": 2036,
+    "early_growth": 0.01,
+    "late_growth": 0.01,
+    "basis": "analyst_assumption",
+    "rationale": "Illustrative sensitivity range for automation and connected equipment. Not a fitted or externally published market forecast."
+  },
+  {
+    "theme_id": "IND",
+    "scenario": "Base",
+    "base_year": 2026,
+    "early_end": 2030,
+    "end_year": 2036,
+    "early_growth": 0.05,
+    "late_growth": 0.04,
+    "basis": "analyst_assumption",
+    "rationale": "Illustrative sensitivity range for automation and connected equipment. Not a fitted or externally published market forecast."
+  },
+  {
+    "theme_id": "IND",
+    "scenario": "Accelerated",
+    "base_year": 2026,
+    "early_end": 2030,
+    "end_year": 2036,
+    "early_growth": 0.08,
+    "late_growth": 0.07,
+    "basis": "analyst_assumption",
+    "rationale": "Illustrative sensitivity range for automation and connected equipment. Not a fitted or externally published market forecast."
+  },
+  {
+    "theme_id": "EDA",
+    "scenario": "Conservative",
+    "base_year": 2026,
+    "early_end": 2030,
+    "end_year": 2036,
+    "early_growth": 0.03,
+    "late_growth": 0.02,
+    "basis": "analyst_assumption",
+    "rationale": "Illustrative sensitivity range for chip complexity and heterogeneous integration. Not a fitted or externally published market forecast."
+  },
+  {
+    "theme_id": "EDA",
+    "scenario": "Base",
+    "base_year": 2026,
+    "early_end": 2030,
+    "end_year": 2036,
+    "early_growth": 0.07,
+    "late_growth": 0.06,
+    "basis": "analyst_assumption",
+    "rationale": "Illustrative sensitivity range for chip complexity and heterogeneous integration. Not a fitted or externally published market forecast."
+  },
+  {
+    "theme_id": "EDA",
+    "scenario": "Accelerated",
+    "base_year": 2026,
+    "early_end": 2030,
+    "end_year": 2036,
+    "early_growth": 0.11,
+    "late_growth": 0.09,
+    "basis": "analyst_assumption",
+    "rationale": "Illustrative sensitivity range for chip complexity and heterogeneous integration. Not a fitted or externally published market forecast."
+  }
+]

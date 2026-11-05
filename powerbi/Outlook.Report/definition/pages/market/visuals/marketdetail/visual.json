@@ -1,0 +1,101 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "marketdetail",
+  "position": {
+    "x": 20,
+    "y": 400,
+    "z": 0,
+    "width": 1240,
+    "height": 290,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "market"
+                    }
+                  },
+                  "Property": "year"
+                }
+              },
+              "queryRef": "market.year",
+              "displayName": "year"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "market"
+                    }
+                  },
+                  "Property": "value_usd_billions"
+                }
+              },
+              "queryRef": "market.value_usd_billions",
+              "displayName": "value_usd_billions"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "market"
+                    }
+                  },
+                  "Property": "source_id"
+                }
+              },
+              "queryRef": "market.source_id",
+              "displayName": "source_id"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "market"
+                    }
+                  },
+                  "Property": "status"
+                }
+              },
+              "queryRef": "market.status",
+              "displayName": "status"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Historical source details · no 2036 extrapolation'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

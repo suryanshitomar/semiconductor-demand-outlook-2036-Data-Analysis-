@@ -1,0 +1,7 @@
+Market sales USD bn = IF(HASONEVALUE(market[year]), MAX(market[value_usd_billions]))
+
+Latest revenue growth = IF(HASONEVALUE(latest_company[company_id]), MAX(latest_company[yoy_growth]))
+
+Scenario index = IF(HASONEVALUE(scenarios[theme_id]) && HASONEVALUE(scenarios[scenario]) && HASONEVALUE(scenarios[year]), MAX(scenarios[index_value]))
+
+2036 index = IF(HASONEVALUE(scenario_endpoints[theme_id]) && HASONEVALUE(scenario_endpoints[scenario]), MAX(scenario_endpoints[index_value]))

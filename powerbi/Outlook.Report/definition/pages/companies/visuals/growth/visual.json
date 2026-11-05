@@ -1,0 +1,76 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "growth",
+  "position": {
+    "x": 20,
+    "y": 20,
+    "z": 0,
+    "width": 600,
+    "height": 350,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "clusteredBarChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "latest_company"
+                    }
+                  },
+                  "Property": "company"
+                }
+              },
+              "queryRef": "latest_company.company",
+              "displayName": "company"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "latest_company"
+                    }
+                  },
+                  "Property": "Latest revenue growth"
+                }
+              },
+              "queryRef": "latest_company.Latest revenue growth"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Within-company YoY · different fiscal ends'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

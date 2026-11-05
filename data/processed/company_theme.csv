@@ -1,0 +1,14 @@
+company_id,theme_id,source_id,relationship,interpretation,company,theme,documented_link
+NVDA,AI,S07,documented product or business relevance,qualitative mapping; not revenue allocation,NVIDIA,AI compute,1
+NVDA,NET,S17,documented product or business relevance,qualitative mapping; not revenue allocation,NVIDIA,AI networking,1
+IFX,PWR,S15,documented product or business relevance,qualitative mapping; not revenue allocation,Infineon,Power electronics,1
+IFX,EDGE,S15,documented product or business relevance,qualitative mapping; not revenue allocation,Infineon,Automotive and edge AI,1
+IFX,IND,S15,documented product or business relevance,qualitative mapping; not revenue allocation,Infineon,Industrial embedded,1
+NXPI,EDGE,S08,documented product or business relevance,qualitative mapping; not revenue allocation,NXP,Automotive and edge AI,1
+NXPI,IND,S08,documented product or business relevance,qualitative mapping; not revenue allocation,NXP,Industrial embedded,1
+TXN,PWR,S16,documented product or business relevance,qualitative mapping; not revenue allocation,Texas Instruments,Power electronics,1
+TXN,IND,S16,documented product or business relevance,qualitative mapping; not revenue allocation,Texas Instruments,Industrial embedded,1
+TXN,EDGE,S16,documented product or business relevance,qualitative mapping; not revenue allocation,Texas Instruments,Automotive and edge AI,1
+SIE,EDA,S11,documented product or business relevance,qualitative mapping; not revenue allocation,Siemens EDA,Design tools and packaging,1
+TSM,EDA,S13,documented product or business relevance,qualitative mapping; not revenue allocation,TSMC,Design tools and packaging,1
+SKH,MEM,S14,documented product or business relevance,qualitative mapping; not revenue allocation,SK hynix,AI memory,1

@@ -1,0 +1,232 @@
+theme_id,theme,scenario,year,index_value,basis,base_year,early_growth,late_growth
+AI,AI compute,Conservative,2026,100.0,analyst_assumption,2026,0.05,0.03
+AI,AI compute,Conservative,2027,105.0,analyst_assumption,2026,0.05,0.03
+AI,AI compute,Conservative,2028,110.25,analyst_assumption,2026,0.05,0.03
+AI,AI compute,Conservative,2029,115.76250000000002,analyst_assumption,2026,0.05,0.03
+AI,AI compute,Conservative,2030,121.55062500000003,analyst_assumption,2026,0.05,0.03
+AI,AI compute,Conservative,2031,125.19714375000002,analyst_assumption,2026,0.05,0.03
+AI,AI compute,Conservative,2032,128.95305806250002,analyst_assumption,2026,0.05,0.03
+AI,AI compute,Conservative,2033,132.82164980437503,analyst_assumption,2026,0.05,0.03
+AI,AI compute,Conservative,2034,136.8062992985063,analyst_assumption,2026,0.05,0.03
+AI,AI compute,Conservative,2035,140.91048827746147,analyst_assumption,2026,0.05,0.03
+AI,AI compute,Conservative,2036,145.13780292578534,analyst_assumption,2026,0.05,0.03
+AI,AI compute,Base,2026,100.0,analyst_assumption,2026,0.12,0.08
+AI,AI compute,Base,2027,112.00000000000001,analyst_assumption,2026,0.12,0.08
+AI,AI compute,Base,2028,125.44000000000001,analyst_assumption,2026,0.12,0.08
+AI,AI compute,Base,2029,140.49280000000005,analyst_assumption,2026,0.12,0.08
+AI,AI compute,Base,2030,157.35193600000005,analyst_assumption,2026,0.12,0.08
+AI,AI compute,Base,2031,169.94009088000007,analyst_assumption,2026,0.12,0.08
+AI,AI compute,Base,2032,183.53529815040008,analyst_assumption,2026,0.12,0.08
+AI,AI compute,Base,2033,198.2181220024321,analyst_assumption,2026,0.12,0.08
+AI,AI compute,Base,2034,214.07557176262668,analyst_assumption,2026,0.12,0.08
+AI,AI compute,Base,2035,231.20161750363684,analyst_assumption,2026,0.12,0.08
+AI,AI compute,Base,2036,249.6977469039278,analyst_assumption,2026,0.12,0.08
+AI,AI compute,Accelerated,2026,100.0,analyst_assumption,2026,0.18,0.12
+AI,AI compute,Accelerated,2027,118.0,analyst_assumption,2026,0.18,0.12
+AI,AI compute,Accelerated,2028,139.23999999999998,analyst_assumption,2026,0.18,0.12
+AI,AI compute,Accelerated,2029,164.30319999999998,analyst_assumption,2026,0.18,0.12
+AI,AI compute,Accelerated,2030,193.87777599999995,analyst_assumption,2026,0.18,0.12
+AI,AI compute,Accelerated,2031,217.14310911999996,analyst_assumption,2026,0.18,0.12
+AI,AI compute,Accelerated,2032,243.20028221439998,analyst_assumption,2026,0.18,0.12
+AI,AI compute,Accelerated,2033,272.38431608012803,analyst_assumption,2026,0.18,0.12
+AI,AI compute,Accelerated,2034,305.0704340097434,analyst_assumption,2026,0.18,0.12
+AI,AI compute,Accelerated,2035,341.6788860909126,analyst_assumption,2026,0.18,0.12
+AI,AI compute,Accelerated,2036,382.6803524218222,analyst_assumption,2026,0.18,0.12
+MEM,AI memory,Conservative,2026,100.0,analyst_assumption,2026,0.04,0.02
+MEM,AI memory,Conservative,2027,104.0,analyst_assumption,2026,0.04,0.02
+MEM,AI memory,Conservative,2028,108.16000000000001,analyst_assumption,2026,0.04,0.02
+MEM,AI memory,Conservative,2029,112.4864,analyst_assumption,2026,0.04,0.02
+MEM,AI memory,Conservative,2030,116.98585600000003,analyst_assumption,2026,0.04,0.02
+MEM,AI memory,Conservative,2031,119.32557312000003,analyst_assumption,2026,0.04,0.02
+MEM,AI memory,Conservative,2032,121.71208458240002,analyst_assumption,2026,0.04,0.02
+MEM,AI memory,Conservative,2033,124.14632627404805,analyst_assumption,2026,0.04,0.02
+MEM,AI memory,Conservative,2034,126.62925279952898,analyst_assumption,2026,0.04,0.02
+MEM,AI memory,Conservative,2035,129.16183785551956,analyst_assumption,2026,0.04,0.02
+MEM,AI memory,Conservative,2036,131.74507461262996,analyst_assumption,2026,0.04,0.02
+MEM,AI memory,Base,2026,100.0,analyst_assumption,2026,0.1,0.07
+MEM,AI memory,Base,2027,110.00000000000001,analyst_assumption,2026,0.1,0.07
+MEM,AI memory,Base,2028,121.00000000000001,analyst_assumption,2026,0.1,0.07
+MEM,AI memory,Base,2029,133.10000000000005,analyst_assumption,2026,0.1,0.07
+MEM,AI memory,Base,2030,146.41000000000005,analyst_assumption,2026,0.1,0.07
+MEM,AI memory,Base,2031,156.65870000000007,analyst_assumption,2026,0.1,0.07
+MEM,AI memory,Base,2032,167.62480900000006,analyst_assumption,2026,0.1,0.07
+MEM,AI memory,Base,2033,179.3585456300001,analyst_assumption,2026,0.1,0.07
+MEM,AI memory,Base,2034,191.9136438241001,analyst_assumption,2026,0.1,0.07
+MEM,AI memory,Base,2035,205.34759889178713,analyst_assumption,2026,0.1,0.07
+MEM,AI memory,Base,2036,219.72193081421224,analyst_assumption,2026,0.1,0.07
+MEM,AI memory,Accelerated,2026,100.0,analyst_assumption,2026,0.16,0.11
+MEM,AI memory,Accelerated,2027,115.99999999999999,analyst_assumption,2026,0.16,0.11
+MEM,AI memory,Accelerated,2028,134.56,analyst_assumption,2026,0.16,0.11
+MEM,AI memory,Accelerated,2029,156.08959999999996,analyst_assumption,2026,0.16,0.11
+MEM,AI memory,Accelerated,2030,181.06393599999996,analyst_assumption,2026,0.16,0.11
+MEM,AI memory,Accelerated,2031,200.98096895999996,analyst_assumption,2026,0.16,0.11
+MEM,AI memory,Accelerated,2032,223.0888755456,analyst_assumption,2026,0.16,0.11
+MEM,AI memory,Accelerated,2033,247.628651855616,analyst_assumption,2026,0.16,0.11
+MEM,AI memory,Accelerated,2034,274.8678035597338,analyst_assumption,2026,0.16,0.11
+MEM,AI memory,Accelerated,2035,305.10326195130455,analyst_assumption,2026,0.16,0.11
+MEM,AI memory,Accelerated,2036,338.66462076594803,analyst_assumption,2026,0.16,0.11
+NET,AI networking,Conservative,2026,100.0,analyst_assumption,2026,0.04,0.02
+NET,AI networking,Conservative,2027,104.0,analyst_assumption,2026,0.04,0.02
+NET,AI networking,Conservative,2028,108.16000000000001,analyst_assumption,2026,0.04,0.02
+NET,AI networking,Conservative,2029,112.4864,analyst_assumption,2026,0.04,0.02
+NET,AI networking,Conservative,2030,116.98585600000003,analyst_assumption,2026,0.04,0.02
+NET,AI networking,Conservative,2031,119.32557312000003,analyst_assumption,2026,0.04,0.02
+NET,AI networking,Conservative,2032,121.71208458240002,analyst_assumption,2026,0.04,0.02
+NET,AI networking,Conservative,2033,124.14632627404805,analyst_assumption,2026,0.04,0.02
+NET,AI networking,Conservative,2034,126.62925279952898,analyst_assumption,2026,0.04,0.02
+NET,AI networking,Conservative,2035,129.16183785551956,analyst_assumption,2026,0.04,0.02
+NET,AI networking,Conservative,2036,131.74507461262996,analyst_assumption,2026,0.04,0.02
+NET,AI networking,Base,2026,100.0,analyst_assumption,2026,0.09,0.07
+NET,AI networking,Base,2027,109.00000000000001,analyst_assumption,2026,0.09,0.07
+NET,AI networking,Base,2028,118.81000000000002,analyst_assumption,2026,0.09,0.07
+NET,AI networking,Base,2029,129.5029,analyst_assumption,2026,0.09,0.07
+NET,AI networking,Base,2030,141.15816100000004,analyst_assumption,2026,0.09,0.07
+NET,AI networking,Base,2031,151.03923227000004,analyst_assumption,2026,0.09,0.07
+NET,AI networking,Base,2032,161.61197852890004,analyst_assumption,2026,0.09,0.07
+NET,AI networking,Base,2033,172.92481702592306,analyst_assumption,2026,0.09,0.07
+NET,AI networking,Base,2034,185.02955421773768,analyst_assumption,2026,0.09,0.07
+NET,AI networking,Base,2035,197.98162301297936,analyst_assumption,2026,0.09,0.07
+NET,AI networking,Base,2036,211.8403366238879,analyst_assumption,2026,0.09,0.07
+NET,AI networking,Accelerated,2026,100.0,analyst_assumption,2026,0.14,0.1
+NET,AI networking,Accelerated,2027,114.00000000000001,analyst_assumption,2026,0.14,0.1
+NET,AI networking,Accelerated,2028,129.96000000000004,analyst_assumption,2026,0.14,0.1
+NET,AI networking,Accelerated,2029,148.15440000000004,analyst_assumption,2026,0.14,0.1
+NET,AI networking,Accelerated,2030,168.8960160000001,analyst_assumption,2026,0.14,0.1
+NET,AI networking,Accelerated,2031,185.7856176000001,analyst_assumption,2026,0.14,0.1
+NET,AI networking,Accelerated,2032,204.36417936000015,analyst_assumption,2026,0.14,0.1
+NET,AI networking,Accelerated,2033,224.80059729600018,analyst_assumption,2026,0.14,0.1
+NET,AI networking,Accelerated,2034,247.2806570256002,analyst_assumption,2026,0.14,0.1
+NET,AI networking,Accelerated,2035,272.00872272816025,analyst_assumption,2026,0.14,0.1
+NET,AI networking,Accelerated,2036,299.2095950009763,analyst_assumption,2026,0.14,0.1
+PWR,Power electronics,Conservative,2026,100.0,analyst_assumption,2026,0.02,0.02
+PWR,Power electronics,Conservative,2027,102.0,analyst_assumption,2026,0.02,0.02
+PWR,Power electronics,Conservative,2028,104.03999999999999,analyst_assumption,2026,0.02,0.02
+PWR,Power electronics,Conservative,2029,106.12080000000002,analyst_assumption,2026,0.02,0.02
+PWR,Power electronics,Conservative,2030,108.243216,analyst_assumption,2026,0.02,0.02
+PWR,Power electronics,Conservative,2031,110.40808032000001,analyst_assumption,2026,0.02,0.02
+PWR,Power electronics,Conservative,2032,112.61624192640001,analyst_assumption,2026,0.02,0.02
+PWR,Power electronics,Conservative,2033,114.86856676492802,analyst_assumption,2026,0.02,0.02
+PWR,Power electronics,Conservative,2034,117.16593810022655,analyst_assumption,2026,0.02,0.02
+PWR,Power electronics,Conservative,2035,119.5092568622311,analyst_assumption,2026,0.02,0.02
+PWR,Power electronics,Conservative,2036,121.89944199947573,analyst_assumption,2026,0.02,0.02
+PWR,Power electronics,Base,2026,100.0,analyst_assumption,2026,0.07,0.06
+PWR,Power electronics,Base,2027,107.0,analyst_assumption,2026,0.07,0.06
+PWR,Power electronics,Base,2028,114.49000000000001,analyst_assumption,2026,0.07,0.06
+PWR,Power electronics,Base,2029,122.50430000000001,analyst_assumption,2026,0.07,0.06
+PWR,Power electronics,Base,2030,131.07960100000003,analyst_assumption,2026,0.07,0.06
+PWR,Power electronics,Base,2031,138.94437706000002,analyst_assumption,2026,0.07,0.06
+PWR,Power electronics,Base,2032,147.28103968360006,analyst_assumption,2026,0.07,0.06
+PWR,Power electronics,Base,2033,156.11790206461603,analyst_assumption,2026,0.07,0.06
+PWR,Power electronics,Base,2034,165.48497618849302,analyst_assumption,2026,0.07,0.06
+PWR,Power electronics,Base,2035,175.41407475980262,analyst_assumption,2026,0.07,0.06
+PWR,Power electronics,Base,2036,185.93891924539076,analyst_assumption,2026,0.07,0.06
+PWR,Power electronics,Accelerated,2026,100.0,analyst_assumption,2026,0.11,0.09
+PWR,Power electronics,Accelerated,2027,111.00000000000001,analyst_assumption,2026,0.11,0.09
+PWR,Power electronics,Accelerated,2028,123.21000000000002,analyst_assumption,2026,0.11,0.09
+PWR,Power electronics,Accelerated,2029,136.76310000000004,analyst_assumption,2026,0.11,0.09
+PWR,Power electronics,Accelerated,2030,151.80704100000005,analyst_assumption,2026,0.11,0.09
+PWR,Power electronics,Accelerated,2031,165.46967469000006,analyst_assumption,2026,0.11,0.09
+PWR,Power electronics,Accelerated,2032,180.36194541210008,analyst_assumption,2026,0.11,0.09
+PWR,Power electronics,Accelerated,2033,196.59452049918912,analyst_assumption,2026,0.11,0.09
+PWR,Power electronics,Accelerated,2034,214.28802734411616,analyst_assumption,2026,0.11,0.09
+PWR,Power electronics,Accelerated,2035,233.5739498050866,analyst_assumption,2026,0.11,0.09
+PWR,Power electronics,Accelerated,2036,254.59560528754443,analyst_assumption,2026,0.11,0.09
+EDGE,Automotive and edge AI,Conservative,2026,100.0,analyst_assumption,2026,0.02,0.02
+EDGE,Automotive and edge AI,Conservative,2027,102.0,analyst_assumption,2026,0.02,0.02
+EDGE,Automotive and edge AI,Conservative,2028,104.03999999999999,analyst_assumption,2026,0.02,0.02
+EDGE,Automotive and edge AI,Conservative,2029,106.12080000000002,analyst_assumption,2026,0.02,0.02
+EDGE,Automotive and edge AI,Conservative,2030,108.243216,analyst_assumption,2026,0.02,0.02
+EDGE,Automotive and edge AI,Conservative,2031,110.40808032000001,analyst_assumption,2026,0.02,0.02
+EDGE,Automotive and edge AI,Conservative,2032,112.61624192640001,analyst_assumption,2026,0.02,0.02
+EDGE,Automotive and edge AI,Conservative,2033,114.86856676492802,analyst_assumption,2026,0.02,0.02
+EDGE,Automotive and edge AI,Conservative,2034,117.16593810022655,analyst_assumption,2026,0.02,0.02
+EDGE,Automotive and edge AI,Conservative,2035,119.5092568622311,analyst_assumption,2026,0.02,0.02
+EDGE,Automotive and edge AI,Conservative,2036,121.89944199947573,analyst_assumption,2026,0.02,0.02
+EDGE,Automotive and edge AI,Base,2026,100.0,analyst_assumption,2026,0.06,0.06
+EDGE,Automotive and edge AI,Base,2027,106.0,analyst_assumption,2026,0.06,0.06
+EDGE,Automotive and edge AI,Base,2028,112.36000000000001,analyst_assumption,2026,0.06,0.06
+EDGE,Automotive and edge AI,Base,2029,119.1016,analyst_assumption,2026,0.06,0.06
+EDGE,Automotive and edge AI,Base,2030,126.24769600000003,analyst_assumption,2026,0.06,0.06
+EDGE,Automotive and edge AI,Base,2031,133.82255776000005,analyst_assumption,2026,0.06,0.06
+EDGE,Automotive and edge AI,Base,2032,141.85191122560005,analyst_assumption,2026,0.06,0.06
+EDGE,Automotive and edge AI,Base,2033,150.36302589913606,analyst_assumption,2026,0.06,0.06
+EDGE,Automotive and edge AI,Base,2034,159.38480745308425,analyst_assumption,2026,0.06,0.06
+EDGE,Automotive and edge AI,Base,2035,168.9478959002693,analyst_assumption,2026,0.06,0.06
+EDGE,Automotive and edge AI,Base,2036,179.08476965428545,analyst_assumption,2026,0.06,0.06
+EDGE,Automotive and edge AI,Accelerated,2026,100.0,analyst_assumption,2026,0.1,0.1
+EDGE,Automotive and edge AI,Accelerated,2027,110.00000000000001,analyst_assumption,2026,0.1,0.1
+EDGE,Automotive and edge AI,Accelerated,2028,121.00000000000001,analyst_assumption,2026,0.1,0.1
+EDGE,Automotive and edge AI,Accelerated,2029,133.10000000000005,analyst_assumption,2026,0.1,0.1
+EDGE,Automotive and edge AI,Accelerated,2030,146.41000000000005,analyst_assumption,2026,0.1,0.1
+EDGE,Automotive and edge AI,Accelerated,2031,161.05100000000007,analyst_assumption,2026,0.1,0.1
+EDGE,Automotive and edge AI,Accelerated,2032,177.1561000000001,analyst_assumption,2026,0.1,0.1
+EDGE,Automotive and edge AI,Accelerated,2033,194.87171000000012,analyst_assumption,2026,0.1,0.1
+EDGE,Automotive and edge AI,Accelerated,2034,214.35888100000014,analyst_assumption,2026,0.1,0.1
+EDGE,Automotive and edge AI,Accelerated,2035,235.79476910000017,analyst_assumption,2026,0.1,0.1
+EDGE,Automotive and edge AI,Accelerated,2036,259.3742460100002,analyst_assumption,2026,0.1,0.1
+IND,Industrial embedded,Conservative,2026,100.0,analyst_assumption,2026,0.01,0.01
+IND,Industrial embedded,Conservative,2027,101.0,analyst_assumption,2026,0.01,0.01
+IND,Industrial embedded,Conservative,2028,102.01,analyst_assumption,2026,0.01,0.01
+IND,Industrial embedded,Conservative,2029,103.03010000000002,analyst_assumption,2026,0.01,0.01
+IND,Industrial embedded,Conservative,2030,104.060401,analyst_assumption,2026,0.01,0.01
+IND,Industrial embedded,Conservative,2031,105.10100501,analyst_assumption,2026,0.01,0.01
+IND,Industrial embedded,Conservative,2032,106.1520150601,analyst_assumption,2026,0.01,0.01
+IND,Industrial embedded,Conservative,2033,107.21353521070101,analyst_assumption,2026,0.01,0.01
+IND,Industrial embedded,Conservative,2034,108.28567056280801,analyst_assumption,2026,0.01,0.01
+IND,Industrial embedded,Conservative,2035,109.36852726843611,analyst_assumption,2026,0.01,0.01
+IND,Industrial embedded,Conservative,2036,110.46221254112046,analyst_assumption,2026,0.01,0.01
+IND,Industrial embedded,Base,2026,100.0,analyst_assumption,2026,0.05,0.04
+IND,Industrial embedded,Base,2027,105.0,analyst_assumption,2026,0.05,0.04
+IND,Industrial embedded,Base,2028,110.25,analyst_assumption,2026,0.05,0.04
+IND,Industrial embedded,Base,2029,115.76250000000002,analyst_assumption,2026,0.05,0.04
+IND,Industrial embedded,Base,2030,121.55062500000003,analyst_assumption,2026,0.05,0.04
+IND,Industrial embedded,Base,2031,126.41265000000003,analyst_assumption,2026,0.05,0.04
+IND,Industrial embedded,Base,2032,131.46915600000005,analyst_assumption,2026,0.05,0.04
+IND,Industrial embedded,Base,2033,136.72792224000003,analyst_assumption,2026,0.05,0.04
+IND,Industrial embedded,Base,2034,142.19703912960006,analyst_assumption,2026,0.05,0.04
+IND,Industrial embedded,Base,2035,147.88492069478406,analyst_assumption,2026,0.05,0.04
+IND,Industrial embedded,Base,2036,153.80031752257543,analyst_assumption,2026,0.05,0.04
+IND,Industrial embedded,Accelerated,2026,100.0,analyst_assumption,2026,0.08,0.07
+IND,Industrial embedded,Accelerated,2027,108.0,analyst_assumption,2026,0.08,0.07
+IND,Industrial embedded,Accelerated,2028,116.64000000000001,analyst_assumption,2026,0.08,0.07
+IND,Industrial embedded,Accelerated,2029,125.97120000000001,analyst_assumption,2026,0.08,0.07
+IND,Industrial embedded,Accelerated,2030,136.04889600000004,analyst_assumption,2026,0.08,0.07
+IND,Industrial embedded,Accelerated,2031,145.57231872000006,analyst_assumption,2026,0.08,0.07
+IND,Industrial embedded,Accelerated,2032,155.76238103040006,analyst_assumption,2026,0.08,0.07
+IND,Industrial embedded,Accelerated,2033,166.66574770252805,analyst_assumption,2026,0.08,0.07
+IND,Industrial embedded,Accelerated,2034,178.33235004170504,analyst_assumption,2026,0.08,0.07
+IND,Industrial embedded,Accelerated,2035,190.81561454462442,analyst_assumption,2026,0.08,0.07
+IND,Industrial embedded,Accelerated,2036,204.17270756274814,analyst_assumption,2026,0.08,0.07
+EDA,Design tools and packaging,Conservative,2026,100.0,analyst_assumption,2026,0.03,0.02
+EDA,Design tools and packaging,Conservative,2027,103.0,analyst_assumption,2026,0.03,0.02
+EDA,Design tools and packaging,Conservative,2028,106.08999999999999,analyst_assumption,2026,0.03,0.02
+EDA,Design tools and packaging,Conservative,2029,109.2727,analyst_assumption,2026,0.03,0.02
+EDA,Design tools and packaging,Conservative,2030,112.55088100000002,analyst_assumption,2026,0.03,0.02
+EDA,Design tools and packaging,Conservative,2031,114.80189862000002,analyst_assumption,2026,0.03,0.02
+EDA,Design tools and packaging,Conservative,2032,117.09793659240002,analyst_assumption,2026,0.03,0.02
+EDA,Design tools and packaging,Conservative,2033,119.43989532424804,analyst_assumption,2026,0.03,0.02
+EDA,Design tools and packaging,Conservative,2034,121.82869323073298,analyst_assumption,2026,0.03,0.02
+EDA,Design tools and packaging,Conservative,2035,124.26526709534764,analyst_assumption,2026,0.03,0.02
+EDA,Design tools and packaging,Conservative,2036,126.7505724372546,analyst_assumption,2026,0.03,0.02
+EDA,Design tools and packaging,Base,2026,100.0,analyst_assumption,2026,0.07,0.06
+EDA,Design tools and packaging,Base,2027,107.0,analyst_assumption,2026,0.07,0.06
+EDA,Design tools and packaging,Base,2028,114.49000000000001,analyst_assumption,2026,0.07,0.06
+EDA,Design tools and packaging,Base,2029,122.50430000000001,analyst_assumption,2026,0.07,0.06
+EDA,Design tools and packaging,Base,2030,131.07960100000003,analyst_assumption,2026,0.07,0.06
+EDA,Design tools and packaging,Base,2031,138.94437706000002,analyst_assumption,2026,0.07,0.06
+EDA,Design tools and packaging,Base,2032,147.28103968360006,analyst_assumption,2026,0.07,0.06
+EDA,Design tools and packaging,Base,2033,156.11790206461603,analyst_assumption,2026,0.07,0.06
+EDA,Design tools and packaging,Base,2034,165.48497618849302,analyst_assumption,2026,0.07,0.06
+EDA,Design tools and packaging,Base,2035,175.41407475980262,analyst_assumption,2026,0.07,0.06
+EDA,Design tools and packaging,Base,2036,185.93891924539076,analyst_assumption,2026,0.07,0.06
+EDA,Design tools and packaging,Accelerated,2026,100.0,analyst_assumption,2026,0.11,0.09
+EDA,Design tools and packaging,Accelerated,2027,111.00000000000001,analyst_assumption,2026,0.11,0.09
+EDA,Design tools and packaging,Accelerated,2028,123.21000000000002,analyst_assumption,2026,0.11,0.09
+EDA,Design tools and packaging,Accelerated,2029,136.76310000000004,analyst_assumption,2026,0.11,0.09
+EDA,Design tools and packaging,Accelerated,2030,151.80704100000005,analyst_assumption,2026,0.11,0.09
+EDA,Design tools and packaging,Accelerated,2031,165.46967469000006,analyst_assumption,2026,0.11,0.09
+EDA,Design tools and packaging,Accelerated,2032,180.36194541210008,analyst_assumption,2026,0.11,0.09
+EDA,Design tools and packaging,Accelerated,2033,196.59452049918912,analyst_assumption,2026,0.11,0.09
+EDA,Design tools and packaging,Accelerated,2034,214.28802734411616,analyst_assumption,2026,0.11,0.09
+EDA,Design tools and packaging,Accelerated,2035,233.5739498050866,analyst_assumption,2026,0.11,0.09
+EDA,Design tools and packaging,Accelerated,2036,254.59560528754443,analyst_assumption,2026,0.11,0.09

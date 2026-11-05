@@ -1,0 +1,8 @@
+theme_id,theme,driver,risk
+AI,AI compute,Training and inference acceleration,Custom accelerators; efficiency improvements; capital-spending cycles
+MEM,AI memory,Bandwidth and capacity requirements,Memory pricing cycles; capacity expansion; technology substitution
+NET,AI networking,Larger connected compute systems,Architecture changes; optics adoption timing; customer concentration
+PWR,Power electronics,Conversion efficiency and electrification,Grid delays; price competition; material substitution
+EDGE,Automotive and edge AI,Intelligence near sensors and devices,Vehicle cycles; adoption economics; qualification times
+IND,Industrial embedded,Automation and connected equipment,Industrial capex cycles; slower retrofits; long product lives
+EDA,Design tools and packaging,Chip complexity and heterogeneous integration,Customer concentration; design productivity; capacity bottlenecks

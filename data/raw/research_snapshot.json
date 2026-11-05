@@ -1,0 +1,562 @@
+{
+  "as_of": "2026-11-05",
+  "sources": [
+    {
+      "source_id": "S01",
+      "title": "SIA 2023 annual sales release",
+      "url": "https://www.semiconductors.org/global-semiconductor-sales-decrease-8-2-in-2023-market-rebounds-late-in-year/",
+      "published_date": "2024-02-05",
+      "coverage": "Annual market sales; 2022 and 2023",
+      "accessed_date": "2026-11-05"
+    },
+    {
+      "source_id": "S02",
+      "title": "SIA 2024 annual sales release",
+      "url": "https://www.semiconductors.org/global-semiconductor-sales-increase-19-1-in-2024-double-digit-growth-projected-in-2025/",
+      "published_date": "2025-02-07",
+      "coverage": "Original 2024 sales vintage, superseded in selected series",
+      "accessed_date": "2026-11-05"
+    },
+    {
+      "source_id": "S03",
+      "title": "SIA 2025 industry report",
+      "url": "https://www.semiconductors.org/2025-state-of-the-industry-report-investment-and-innovation-amidst-global-challenges-and-opportunities/",
+      "published_date": "",
+      "coverage": "Revised 2024 annual sales",
+      "accessed_date": "2026-11-05"
+    },
+    {
+      "source_id": "S04",
+      "title": "WSTS full-year 2025 release",
+      "url": "https://www.wsts.org/esraCMS/extension/media/f/WST/7495/WSTS-Q4-Release-2025_-_06-Mar-2026.pdf",
+      "published_date": "2026-03-06",
+      "coverage": "2025 annual sales; not a 2036 projection",
+      "accessed_date": "2026-11-05"
+    },
+    {
+      "source_id": "S05",
+      "title": "WSTS Spring 2026 forecast",
+      "url": "https://www.wsts.org/esraCMS/extension/media/f/WST/7618/WSTS_FC-Release-2026-May.pdf",
+      "published_date": "2026-06-02",
+      "coverage": "Rounded published forecast totals; pin this vintage",
+      "accessed_date": "2026-11-05"
+    },
+    {
+      "source_id": "S06",
+      "title": "NVIDIA FY2025 results",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2025",
+      "published_date": "2025-02-26",
+      "coverage": "FY2024 and FY2025 revenue",
+      "accessed_date": "2026-11-05"
+    },
+    {
+      "source_id": "S07",
+      "title": "NVIDIA FY2026 results",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026",
+      "published_date": "2026-02-25",
+      "coverage": "FY2026 revenue",
+      "accessed_date": "2026-11-05"
+    },
+    {
+      "source_id": "S08",
+      "title": "NXP FY2025 results",
+      "url": "https://investors.nxp.com/news-releases/news-release-details/nxp-semiconductors-reports-fourth-quarter-and-full-year-2025",
+      "published_date": "2026-02-02",
+      "coverage": "2024 and 2025 revenue and edge strategy",
+      "accessed_date": "2026-11-05"
+    },
+    {
+      "source_id": "S09",
+      "title": "Texas Instruments FY2025 results",
+      "url": "https://www.ti.com/about-ti/newsroom/news-releases/2026/2026-01-27-ti-reports-q4-2025-and-2025-financial-results-and-shareholder-returns.html",
+      "published_date": "2026-01-27",
+      "coverage": "2024 and 2025 revenue",
+      "accessed_date": "2026-11-05"
+    },
+    {
+      "source_id": "S10",
+      "title": "Infineon financial data 2021 to 2025",
+      "url": "https://www.infineon.com/assets/row/public/documents/corporate/investors/annual-reports/2025/2025-infineon-financial-data-2021-2025-v01-00-en.pdf",
+      "published_date": "",
+      "coverage": "Five-year totals; comparative segment reclassification noted in source",
+      "accessed_date": "2026-11-05"
+    },
+    {
+      "source_id": "S11",
+      "title": "Siemens EDA product overview",
+      "url": "https://www.siemens.com/en-us/solutions/electronic-design-automation/",
+      "published_date": "",
+      "coverage": "Qualitative EDA position; no Siemens group revenue used",
+      "accessed_date": "2026-11-05"
+    },
+    {
+      "source_id": "S12",
+      "title": "IEA Key Questions on Energy and AI",
+      "url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+      "published_date": "",
+      "coverage": "2025 electricity estimate and 2030 projection; CC BY 4.0",
+      "accessed_date": "2026-11-05"
+    },
+    {
+      "source_id": "S13",
+      "title": "TSMC 2025 annual report",
+      "url": "https://investor.tsmc.com/static/annualReports/2025/english/index.html",
+      "published_date": "",
+      "coverage": "2024 and 2025 USD revenue as reported; packaging and foundry strategy",
+      "accessed_date": "2026-11-05"
+    },
+    {
+      "source_id": "S14",
+      "title": "SK hynix FY2025 results",
+      "url": "https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/",
+      "published_date": "2026-01-28",
+      "coverage": "2024 and 2025 KRW revenue; HBM discussion",
+      "accessed_date": "2026-11-05"
+    },
+    {
+      "source_id": "S15",
+      "title": "Infineon FY2025 annual report",
+      "url": "https://www.infineon.com/row/public/documents/corporate/investors/annual-reports/2025/2025-annual-report-v01-00-en.pdf",
+      "published_date": "",
+      "coverage": "Power and data-center positioning",
+      "accessed_date": "2026-11-05"
+    },
+    {
+      "source_id": "S16",
+      "title": "TI company overview",
+      "url": "https://www.ti.com/",
+      "published_date": "",
+      "coverage": "Analog and embedded processing position",
+      "accessed_date": "2026-11-05"
+    },
+    {
+      "source_id": "S17",
+      "title": "NVIDIA networking overview",
+      "url": "https://developer.nvidia.com/networking",
+      "published_date": "",
+      "coverage": "Networking ecosystem positioning",
+      "accessed_date": "2026-11-05"
+    }
+  ],
+  "companies": [
+    {
+      "company_id": "NVDA",
+      "company": "NVIDIA",
+      "role": "Fabless and AI systems",
+      "report_currency": "USD",
+      "source_id": "S07"
+    },
+    {
+      "company_id": "IFX",
+      "company": "Infineon",
+      "role": "Integrated power and embedded",
+      "report_currency": "EUR",
+      "source_id": "S15"
+    },
+    {
+      "company_id": "NXPI",
+      "company": "NXP",
+      "role": "Automotive and edge processing",
+      "report_currency": "USD",
+      "source_id": "S08"
+    },
+    {
+      "company_id": "TXN",
+      "company": "Texas Instruments",
+      "role": "Analog and embedded",
+      "report_currency": "USD",
+      "source_id": "S16"
+    },
+    {
+      "company_id": "SIE",
+      "company": "Siemens EDA",
+      "role": "Design software and tools",
+      "report_currency": "",
+      "source_id": "S11"
+    },
+    {
+      "company_id": "TSM",
+      "company": "TSMC",
+      "role": "Foundry and advanced packaging",
+      "report_currency": "USD",
+      "source_id": "S13"
+    },
+    {
+      "company_id": "SKH",
+      "company": "SK hynix",
+      "role": "Memory",
+      "report_currency": "KRW",
+      "source_id": "S14"
+    }
+  ],
+  "revenues": [
+    {
+      "company_id": "NVDA",
+      "fiscal_year": 2024,
+      "period_end": "2024-01-28",
+      "revenue_millions": 60922,
+      "currency": "USD",
+      "source_id": "S06",
+      "status": "reported",
+      "scope": "consolidated_company_revenue"
+    },
+    {
+      "company_id": "NVDA",
+      "fiscal_year": 2025,
+      "period_end": "2025-01-26",
+      "revenue_millions": 130497,
+      "currency": "USD",
+      "source_id": "S06",
+      "status": "reported",
+      "scope": "consolidated_company_revenue"
+    },
+    {
+      "company_id": "NVDA",
+      "fiscal_year": 2026,
+      "period_end": "2026-01-25",
+      "revenue_millions": 215938,
+      "currency": "USD",
+      "source_id": "S07",
+      "status": "reported",
+      "scope": "consolidated_company_revenue"
+    },
+    {
+      "company_id": "NXPI",
+      "fiscal_year": 2024,
+      "period_end": "2024-12-31",
+      "revenue_millions": 12614,
+      "currency": "USD",
+      "source_id": "S08",
+      "status": "reported",
+      "scope": "consolidated_company_revenue"
+    },
+    {
+      "company_id": "NXPI",
+      "fiscal_year": 2025,
+      "period_end": "2025-12-31",
+      "revenue_millions": 12269,
+      "currency": "USD",
+      "source_id": "S08",
+      "status": "reported",
+      "scope": "consolidated_company_revenue"
+    },
+    {
+      "company_id": "TXN",
+      "fiscal_year": 2024,
+      "period_end": "2024-12-31",
+      "revenue_millions": 15641,
+      "currency": "USD",
+      "source_id": "S09",
+      "status": "reported",
+      "scope": "consolidated_company_revenue"
+    },
+    {
+      "company_id": "TXN",
+      "fiscal_year": 2025,
+      "period_end": "2025-12-31",
+      "revenue_millions": 17682,
+      "currency": "USD",
+      "source_id": "S09",
+      "status": "reported",
+      "scope": "consolidated_company_revenue"
+    },
+    {
+      "company_id": "TSM",
+      "fiscal_year": 2024,
+      "period_end": "2024-12-31",
+      "revenue_millions": 90080,
+      "currency": "USD",
+      "source_id": "S13",
+      "status": "reported",
+      "scope": "consolidated_company_revenue"
+    },
+    {
+      "company_id": "TSM",
+      "fiscal_year": 2025,
+      "period_end": "2025-12-31",
+      "revenue_millions": 122420,
+      "currency": "USD",
+      "source_id": "S13",
+      "status": "reported",
+      "scope": "consolidated_company_revenue"
+    },
+    {
+      "company_id": "SKH",
+      "fiscal_year": 2024,
+      "period_end": "2024-12-31",
+      "revenue_millions": 66193000,
+      "currency": "KRW",
+      "source_id": "S14",
+      "status": "reported",
+      "scope": "consolidated_company_revenue"
+    },
+    {
+      "company_id": "SKH",
+      "fiscal_year": 2025,
+      "period_end": "2025-12-31",
+      "revenue_millions": 97146700,
+      "currency": "KRW",
+      "source_id": "S14",
+      "status": "reported",
+      "scope": "consolidated_company_revenue"
+    },
+    {
+      "company_id": "IFX",
+      "fiscal_year": 2021,
+      "period_end": "2021-09-30",
+      "revenue_millions": 11060,
+      "currency": "EUR",
+      "source_id": "S10",
+      "status": "reported",
+      "scope": "consolidated_company_revenue"
+    },
+    {
+      "company_id": "IFX",
+      "fiscal_year": 2022,
+      "period_end": "2022-09-30",
+      "revenue_millions": 14218,
+      "currency": "EUR",
+      "source_id": "S10",
+      "status": "reported",
+      "scope": "consolidated_company_revenue"
+    },
+    {
+      "company_id": "IFX",
+      "fiscal_year": 2023,
+      "period_end": "2023-09-30",
+      "revenue_millions": 16309,
+      "currency": "EUR",
+      "source_id": "S10",
+      "status": "reported",
+      "scope": "consolidated_company_revenue"
+    },
+    {
+      "company_id": "IFX",
+      "fiscal_year": 2024,
+      "period_end": "2024-09-30",
+      "revenue_millions": 14955,
+      "currency": "EUR",
+      "source_id": "S10",
+      "status": "reported",
+      "scope": "consolidated_company_revenue"
+    },
+    {
+      "company_id": "IFX",
+      "fiscal_year": 2025,
+      "period_end": "2025-09-30",
+      "revenue_millions": 14662,
+      "currency": "EUR",
+      "source_id": "S10",
+      "status": "reported",
+      "scope": "consolidated_company_revenue"
+    }
+  ],
+  "market": [
+    {
+      "year": 2022,
+      "value_usd_billions": 574.1,
+      "source_id": "S01",
+      "selected": true,
+      "status": "reported"
+    },
+    {
+      "year": 2023,
+      "value_usd_billions": 526.8,
+      "source_id": "S01",
+      "selected": true,
+      "status": "reported"
+    },
+    {
+      "year": 2024,
+      "value_usd_billions": 627.6,
+      "source_id": "S02",
+      "selected": false,
+      "status": "reported"
+    },
+    {
+      "year": 2024,
+      "value_usd_billions": 630.5,
+      "source_id": "S03",
+      "selected": true,
+      "status": "reported"
+    },
+    {
+      "year": 2025,
+      "value_usd_billions": 795.6,
+      "source_id": "S04",
+      "selected": true,
+      "status": "reported"
+    }
+  ],
+  "published": [
+    {
+      "metric": "Global semiconductor sales",
+      "year": 2026,
+      "value": 1510,
+      "unit": "USD billions",
+      "status": "published_forecast",
+      "source_id": "S05"
+    },
+    {
+      "metric": "Global semiconductor sales",
+      "year": 2027,
+      "value": 1900,
+      "unit": "USD billions",
+      "status": "published_forecast",
+      "source_id": "S05"
+    },
+    {
+      "metric": "Data-center electricity",
+      "year": 2025,
+      "value": 485,
+      "unit": "TWh",
+      "status": "published_estimate",
+      "source_id": "S12"
+    },
+    {
+      "metric": "Data-center electricity",
+      "year": 2030,
+      "value": 950,
+      "unit": "TWh",
+      "status": "published_projection",
+      "source_id": "S12"
+    }
+  ],
+  "themes": [
+    {
+      "theme_id": "AI",
+      "theme": "AI compute",
+      "driver": "Training and inference acceleration",
+      "risk": "Custom accelerators; efficiency improvements; capital-spending cycles"
+    },
+    {
+      "theme_id": "MEM",
+      "theme": "AI memory",
+      "driver": "Bandwidth and capacity requirements",
+      "risk": "Memory pricing cycles; capacity expansion; technology substitution"
+    },
+    {
+      "theme_id": "NET",
+      "theme": "AI networking",
+      "driver": "Larger connected compute systems",
+      "risk": "Architecture changes; optics adoption timing; customer concentration"
+    },
+    {
+      "theme_id": "PWR",
+      "theme": "Power electronics",
+      "driver": "Conversion efficiency and electrification",
+      "risk": "Grid delays; price competition; material substitution"
+    },
+    {
+      "theme_id": "EDGE",
+      "theme": "Automotive and edge AI",
+      "driver": "Intelligence near sensors and devices",
+      "risk": "Vehicle cycles; adoption economics; qualification times"
+    },
+    {
+      "theme_id": "IND",
+      "theme": "Industrial embedded",
+      "driver": "Automation and connected equipment",
+      "risk": "Industrial capex cycles; slower retrofits; long product lives"
+    },
+    {
+      "theme_id": "EDA",
+      "theme": "Design tools and packaging",
+      "driver": "Chip complexity and heterogeneous integration",
+      "risk": "Customer concentration; design productivity; capacity bottlenecks"
+    }
+  ],
+  "map": [
+    {
+      "company_id": "NVDA",
+      "theme_id": "AI",
+      "source_id": "S07",
+      "relationship": "documented product or business relevance",
+      "interpretation": "qualitative mapping; not revenue allocation"
+    },
+    {
+      "company_id": "NVDA",
+      "theme_id": "NET",
+      "source_id": "S17",
+      "relationship": "documented product or business relevance",
+      "interpretation": "qualitative mapping; not revenue allocation"
+    },
+    {
+      "company_id": "IFX",
+      "theme_id": "PWR",
+      "source_id": "S15",
+      "relationship": "documented product or business relevance",
+      "interpretation": "qualitative mapping; not revenue allocation"
+    },
+    {
+      "company_id": "IFX",
+      "theme_id": "EDGE",
+      "source_id": "S15",
+      "relationship": "documented product or business relevance",
+      "interpretation": "qualitative mapping; not revenue allocation"
+    },
+    {
+      "company_id": "IFX",
+      "theme_id": "IND",
+      "source_id": "S15",
+      "relationship": "documented product or business relevance",
+      "interpretation": "qualitative mapping; not revenue allocation"
+    },
+    {
+      "company_id": "NXPI",
+      "theme_id": "EDGE",
+      "source_id": "S08",
+      "relationship": "documented product or business relevance",
+      "interpretation": "qualitative mapping; not revenue allocation"
+    },
+    {
+      "company_id": "NXPI",
+      "theme_id": "IND",
+      "source_id": "S08",
+      "relationship": "documented product or business relevance",
+      "interpretation": "qualitative mapping; not revenue allocation"
+    },
+    {
+      "company_id": "TXN",
+      "theme_id": "PWR",
+      "source_id": "S16",
+      "relationship": "documented product or business relevance",
+      "interpretation": "qualitative mapping; not revenue allocation"
+    },
+    {
+      "company_id": "TXN",
+      "theme_id": "IND",
+      "source_id": "S16",
+      "relationship": "documented product or business relevance",
+      "interpretation": "qualitative mapping; not revenue allocation"
+    },
+    {
+      "company_id": "TXN",
+      "theme_id": "EDGE",
+      "source_id": "S16",
+      "relationship": "documented product or business relevance",
+      "interpretation": "qualitative mapping; not revenue allocation"
+    },
+    {
+      "company_id": "SIE",
+      "theme_id": "EDA",
+      "source_id": "S11",
+      "relationship": "documented product or business relevance",
+      "interpretation": "qualitative mapping; not revenue allocation"
+    },
+    {
+      "company_id": "TSM",
+      "theme_id": "EDA",
+      "source_id": "S13",
+      "relationship": "documented product or business relevance",
+      "interpretation": "qualitative mapping; not revenue allocation"
+    },
+    {
+      "company_id": "SKH",
+      "theme_id": "MEM",
+      "source_id": "S14",
+      "relationship": "documented product or business relevance",
+      "interpretation": "qualitative mapping; not revenue allocation"
+    }
+  ]
+}

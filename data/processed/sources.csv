@@ -1,0 +1,18 @@
+source_id,title,url,published_date,coverage,accessed_date
+S01,SIA 2023 annual sales release,https://www.semiconductors.org/global-semiconductor-sales-decrease-8-2-in-2023-market-rebounds-late-in-year/,2024-02-05,Annual market sales; 2022 and 2023,2026-11-05
+S02,SIA 2024 annual sales release,https://www.semiconductors.org/global-semiconductor-sales-increase-19-1-in-2024-double-digit-growth-projected-in-2025/,2025-02-07,"Original 2024 sales vintage, superseded in selected series",2026-11-05
+S03,SIA 2025 industry report,https://www.semiconductors.org/2025-state-of-the-industry-report-investment-and-innovation-amidst-global-challenges-and-opportunities/,,Revised 2024 annual sales,2026-11-05
+S04,WSTS full-year 2025 release,https://www.wsts.org/esraCMS/extension/media/f/WST/7495/WSTS-Q4-Release-2025_-_06-Mar-2026.pdf,2026-03-06,2025 annual sales; not a 2036 projection,2026-11-05
+S05,WSTS Spring 2026 forecast,https://www.wsts.org/esraCMS/extension/media/f/WST/7618/WSTS_FC-Release-2026-May.pdf,2026-06-02,Rounded published forecast totals; pin this vintage,2026-11-05
+S06,NVIDIA FY2025 results,https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2025,2025-02-26,FY2024 and FY2025 revenue,2026-11-05
+S07,NVIDIA FY2026 results,https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026,2026-02-25,FY2026 revenue,2026-11-05
+S08,NXP FY2025 results,https://investors.nxp.com/news-releases/news-release-details/nxp-semiconductors-reports-fourth-quarter-and-full-year-2025,2026-02-02,2024 and 2025 revenue and edge strategy,2026-11-05
+S09,Texas Instruments FY2025 results,https://www.ti.com/about-ti/newsroom/news-releases/2026/2026-01-27-ti-reports-q4-2025-and-2025-financial-results-and-shareholder-returns.html,2026-01-27,2024 and 2025 revenue,2026-11-05
+S10,Infineon financial data 2021 to 2025,https://www.infineon.com/assets/row/public/documents/corporate/investors/annual-reports/2025/2025-infineon-financial-data-2021-2025-v01-00-en.pdf,,Five-year totals; comparative segment reclassification noted in source,2026-11-05
+S11,Siemens EDA product overview,https://www.siemens.com/en-us/solutions/electronic-design-automation/,,Qualitative EDA position; no Siemens group revenue used,2026-11-05
+S12,IEA Key Questions on Energy and AI,https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary,,2025 electricity estimate and 2030 projection; CC BY 4.0,2026-11-05
+S13,TSMC 2025 annual report,https://investor.tsmc.com/static/annualReports/2025/english/index.html,,2024 and 2025 USD revenue as reported; packaging and foundry strategy,2026-11-05
+S14,SK hynix FY2025 results,https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/,2026-01-28,2024 and 2025 KRW revenue; HBM discussion,2026-11-05
+S15,Infineon FY2025 annual report,https://www.infineon.com/row/public/documents/corporate/investors/annual-reports/2025/2025-annual-report-v01-00-en.pdf,,Power and data-center positioning,2026-11-05
+S16,TI company overview,https://www.ti.com/,,Analog and embedded processing position,2026-11-05
+S17,NVIDIA networking overview,https://developer.nvidia.com/networking,,Networking ecosystem positioning,2026-11-05

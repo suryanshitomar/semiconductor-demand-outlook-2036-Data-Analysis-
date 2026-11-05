@@ -1,0 +1,5 @@
+metric,year,value,unit,status,source_id
+Global semiconductor sales,2026,1510,USD billions,published_forecast,S05
+Global semiconductor sales,2027,1900,USD billions,published_forecast,S05
+Data-center electricity,2025,485,TWh,published_estimate,S12
+Data-center electricity,2030,950,TWh,published_projection,S12

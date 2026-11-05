@@ -1,0 +1,12 @@
+.venv/
+.runtime/
+.cache/
+__pycache__/
+*.pyc
+.env
+.env.*
+.pbi/
+*.abf
+*.pbix
+outputs/analysis.sqlite
+.ipynb_checkpoints/

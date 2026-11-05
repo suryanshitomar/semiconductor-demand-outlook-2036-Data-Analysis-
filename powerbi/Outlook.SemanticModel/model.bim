@@ -1,0 +1,1024 @@
+{
+  "name": "SemiconductorOutlook",
+  "compatibilityLevel": 1567,
+  "model": {
+    "culture": "en-US",
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "tables": [
+      {
+        "name": "sources",
+        "columns": [
+          {
+            "name": "source_id",
+            "dataType": "string",
+            "sourceColumn": "source_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "title",
+            "dataType": "string",
+            "sourceColumn": "title",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "url",
+            "dataType": "string",
+            "sourceColumn": "url",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "published_date",
+            "dataType": "string",
+            "sourceColumn": "published_date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "coverage",
+            "dataType": "string",
+            "sourceColumn": "coverage",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "accessed_date",
+            "dataType": "string",
+            "sourceColumn": "accessed_date",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "sources",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "#table(type table [source_id = nullable text, title = nullable text, url = nullable text, published_date = nullable text, coverage = nullable text, accessed_date = nullable text], {{\"S01\", \"SIA 2023 annual sales release\", \"https://www.semiconductors.org/global-semiconductor-sales-decrease-8-2-in-2023-market-rebounds-late-in-year/\", \"2024-02-05\", \"Annual market sales; 2022 and 2023\", \"2026-11-05\"},",
+                "{\"S02\", \"SIA 2024 annual sales release\", \"https://www.semiconductors.org/global-semiconductor-sales-increase-19-1-in-2024-double-digit-growth-projected-in-2025/\", \"2025-02-07\", \"Original 2024 sales vintage, superseded in selected series\", \"2026-11-05\"},",
+                "{\"S03\", \"SIA 2025 industry report\", \"https://www.semiconductors.org/2025-state-of-the-industry-report-investment-and-innovation-amidst-global-challenges-and-opportunities/\", \"\", \"Revised 2024 annual sales\", \"2026-11-05\"},",
+                "{\"S04\", \"WSTS full-year 2025 release\", \"https://www.wsts.org/esraCMS/extension/media/f/WST/7495/WSTS-Q4-Release-2025_-_06-Mar-2026.pdf\", \"2026-03-06\", \"2025 annual sales; not a 2036 projection\", \"2026-11-05\"},",
+                "{\"S05\", \"WSTS Spring 2026 forecast\", \"https://www.wsts.org/esraCMS/extension/media/f/WST/7618/WSTS_FC-Release-2026-May.pdf\", \"2026-06-02\", \"Rounded published forecast totals; pin this vintage\", \"2026-11-05\"},",
+                "{\"S06\", \"NVIDIA FY2025 results\", \"https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2025\", \"2025-02-26\", \"FY2024 and FY2025 revenue\", \"2026-11-05\"},",
+                "{\"S07\", \"NVIDIA FY2026 results\", \"https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2026\", \"2026-02-25\", \"FY2026 revenue\", \"2026-11-05\"},",
+                "{\"S08\", \"NXP FY2025 results\", \"https://investors.nxp.com/news-releases/news-release-details/nxp-semiconductors-reports-fourth-quarter-and-full-year-2025\", \"2026-02-02\", \"2024 and 2025 revenue and edge strategy\", \"2026-11-05\"},",
+                "{\"S09\", \"Texas Instruments FY2025 results\", \"https://www.ti.com/about-ti/newsroom/news-releases/2026/2026-01-27-ti-reports-q4-2025-and-2025-financial-results-and-shareholder-returns.html\", \"2026-01-27\", \"2024 and 2025 revenue\", \"2026-11-05\"},",
+                "{\"S10\", \"Infineon financial data 2021 to 2025\", \"https://www.infineon.com/assets/row/public/documents/corporate/investors/annual-reports/2025/2025-infineon-financial-data-2021-2025-v01-00-en.pdf\", \"\", \"Five-year totals; comparative segment reclassification noted in source\", \"2026-11-05\"},",
+                "{\"S11\", \"Siemens EDA product overview\", \"https://www.siemens.com/en-us/solutions/electronic-design-automation/\", \"\", \"Qualitative EDA position; no Siemens group revenue used\", \"2026-11-05\"},",
+                "{\"S12\", \"IEA Key Questions on Energy and AI\", \"https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary\", \"\", \"2025 electricity estimate and 2030 projection; CC BY 4.0\", \"2026-11-05\"},",
+                "{\"S13\", \"TSMC 2025 annual report\", \"https://investor.tsmc.com/static/annualReports/2025/english/index.html\", \"\", \"2024 and 2025 USD revenue as reported; packaging and foundry strategy\", \"2026-11-05\"},",
+                "{\"S14\", \"SK hynix FY2025 results\", \"https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/\", \"2026-01-28\", \"2024 and 2025 KRW revenue; HBM discussion\", \"2026-11-05\"},",
+                "{\"S15\", \"Infineon FY2025 annual report\", \"https://www.infineon.com/row/public/documents/corporate/investors/annual-reports/2025/2025-annual-report-v01-00-en.pdf\", \"\", \"Power and data-center positioning\", \"2026-11-05\"},",
+                "{\"S16\", \"TI company overview\", \"https://www.ti.com/\", \"\", \"Analog and embedded processing position\", \"2026-11-05\"},",
+                "{\"S17\", \"NVIDIA networking overview\", \"https://developer.nvidia.com/networking\", \"\", \"Networking ecosystem positioning\", \"2026-11-05\"}})"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "company_revenue",
+        "columns": [
+          {
+            "name": "company_id",
+            "dataType": "string",
+            "sourceColumn": "company_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "fiscal_year",
+            "dataType": "int64",
+            "sourceColumn": "fiscal_year",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "period_end",
+            "dataType": "string",
+            "sourceColumn": "period_end",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "revenue_millions",
+            "dataType": "int64",
+            "sourceColumn": "revenue_millions",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "currency",
+            "dataType": "string",
+            "sourceColumn": "currency",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "source_id",
+            "dataType": "string",
+            "sourceColumn": "source_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "status",
+            "dataType": "string",
+            "sourceColumn": "status",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "scope",
+            "dataType": "string",
+            "sourceColumn": "scope",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "company",
+            "dataType": "string",
+            "sourceColumn": "company",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "yoy_growth",
+            "dataType": "double",
+            "sourceColumn": "yoy_growth",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "within_company_index",
+            "dataType": "double",
+            "sourceColumn": "within_company_index",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "index_base_fiscal_year",
+            "dataType": "int64",
+            "sourceColumn": "index_base_fiscal_year",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "company_revenue",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "#table(type table [company_id = nullable text, fiscal_year = Int64.Type, period_end = nullable text, revenue_millions = Int64.Type, currency = nullable text, source_id = nullable text, status = nullable text, scope = nullable text, company = nullable text, yoy_growth = nullable number, within_company_index = nullable number, index_base_fiscal_year = Int64.Type], {{\"IFX\", 2021, \"2021-09-30\", 11060, \"EUR\", \"S10\", \"reported\", \"consolidated_company_revenue\", \"Infineon\", null, 100.0, 2021},",
+                "{\"IFX\", 2022, \"2022-09-30\", 14218, \"EUR\", \"S10\", \"reported\", \"consolidated_company_revenue\", \"Infineon\", 0.2855334538878842, 128.55334538878841, 2021},",
+                "{\"IFX\", 2023, \"2023-09-30\", 16309, \"EUR\", \"S10\", \"reported\", \"consolidated_company_revenue\", \"Infineon\", 0.14706709804473195, 147.45931283905966, 2021},",
+                "{\"IFX\", 2024, \"2024-09-30\", 14955, \"EUR\", \"S10\", \"reported\", \"consolidated_company_revenue\", \"Infineon\", -0.08302164449077198, 135.21699819168174, 2021},",
+                "{\"IFX\", 2025, \"2025-09-30\", 14662, \"EUR\", \"S10\", \"reported\", \"consolidated_company_revenue\", \"Infineon\", -0.01959210966232028, 132.56781193490056, 2021},",
+                "{\"NVDA\", 2024, \"2024-01-28\", 60922, \"USD\", \"S06\", \"reported\", \"consolidated_company_revenue\", \"NVIDIA\", null, 100.0, 2024},",
+                "{\"NVDA\", 2025, \"2025-01-26\", 130497, \"USD\", \"S06\", \"reported\", \"consolidated_company_revenue\", \"NVIDIA\", 1.1420340763599355, 214.20340763599356, 2024},",
+                "{\"NVDA\", 2026, \"2026-01-25\", 215938, \"USD\", \"S07\", \"reported\", \"consolidated_company_revenue\", \"NVIDIA\", 0.6547353579009478, 354.44995239814847, 2024},",
+                "{\"NXPI\", 2024, \"2024-12-31\", 12614, \"USD\", \"S08\", \"reported\", \"consolidated_company_revenue\", \"NXP\", null, 100.0, 2024},",
+                "{\"NXPI\", 2025, \"2025-12-31\", 12269, \"USD\", \"S08\", \"reported\", \"consolidated_company_revenue\", \"NXP\", -0.027350562866656047, 97.26494371333439, 2024},",
+                "{\"SKH\", 2024, \"2024-12-31\", 66193000, \"KRW\", \"S14\", \"reported\", \"consolidated_company_revenue\", \"SK hynix\", null, 100.0, 2024},",
+                "{\"SKH\", 2025, \"2025-12-31\", 97146700, \"KRW\", \"S14\", \"reported\", \"consolidated_company_revenue\", \"SK hynix\", 0.4676279969181032, 146.76279969181033, 2024},",
+                "{\"TSM\", 2024, \"2024-12-31\", 90080, \"USD\", \"S13\", \"reported\", \"consolidated_company_revenue\", \"TSMC\", null, 100.0, 2024},",
+                "{\"TSM\", 2025, \"2025-12-31\", 122420, \"USD\", \"S13\", \"reported\", \"consolidated_company_revenue\", \"TSMC\", 0.35901420959147434, 135.90142095914743, 2024},",
+                "{\"TXN\", 2024, \"2024-12-31\", 15641, \"USD\", \"S09\", \"reported\", \"consolidated_company_revenue\", \"Texas Instruments\", null, 100.0, 2024},",
+                "{\"TXN\", 2025, \"2025-12-31\", 17682, \"USD\", \"S09\", \"reported\", \"consolidated_company_revenue\", \"Texas Instruments\", 0.13049037785307838, 113.04903778530783, 2024}})"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "market",
+        "columns": [
+          {
+            "name": "year",
+            "dataType": "int64",
+            "sourceColumn": "year",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "value_usd_billions",
+            "dataType": "double",
+            "sourceColumn": "value_usd_billions",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "source_id",
+            "dataType": "string",
+            "sourceColumn": "source_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "selected",
+            "dataType": "boolean",
+            "sourceColumn": "selected",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "status",
+            "dataType": "string",
+            "sourceColumn": "status",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "yoy_growth",
+            "dataType": "double",
+            "sourceColumn": "yoy_growth",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "market",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "#table(type table [year = Int64.Type, value_usd_billions = nullable number, source_id = nullable text, selected = nullable logical, status = nullable text, yoy_growth = nullable number], {{2022, 574.1, \"S01\", true, \"reported\", null},",
+                "{2023, 526.8, \"S01\", true, \"reported\", -0.08238982755617497},",
+                "{2024, 630.5, \"S03\", true, \"reported\", 0.19684889901290825},",
+                "{2025, 795.6, \"S04\", true, \"reported\", 0.26185567010309274}})"
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Market sales USD bn",
+            "expression": "IF(HASONEVALUE(market[year]), MAX(market[value_usd_billions]))",
+            "formatString": "#,0.0"
+          }
+        ]
+      },
+      {
+        "name": "published_outlook",
+        "columns": [
+          {
+            "name": "metric",
+            "dataType": "string",
+            "sourceColumn": "metric",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "year",
+            "dataType": "int64",
+            "sourceColumn": "year",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "value",
+            "dataType": "int64",
+            "sourceColumn": "value",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "unit",
+            "dataType": "string",
+            "sourceColumn": "unit",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "status",
+            "dataType": "string",
+            "sourceColumn": "status",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "source_id",
+            "dataType": "string",
+            "sourceColumn": "source_id",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "published_outlook",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "#table(type table [metric = nullable text, year = Int64.Type, value = Int64.Type, unit = nullable text, status = nullable text, source_id = nullable text], {{\"Global semiconductor sales\", 2026, 1510, \"USD billions\", \"published_forecast\", \"S05\"},",
+                "{\"Global semiconductor sales\", 2027, 1900, \"USD billions\", \"published_forecast\", \"S05\"},",
+                "{\"Data-center electricity\", 2025, 485, \"TWh\", \"published_estimate\", \"S12\"},",
+                "{\"Data-center electricity\", 2030, 950, \"TWh\", \"published_projection\", \"S12\"}})"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "themes",
+        "columns": [
+          {
+            "name": "theme_id",
+            "dataType": "string",
+            "sourceColumn": "theme_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "theme",
+            "dataType": "string",
+            "sourceColumn": "theme",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "driver",
+            "dataType": "string",
+            "sourceColumn": "driver",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "risk",
+            "dataType": "string",
+            "sourceColumn": "risk",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "themes",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "#table(type table [theme_id = nullable text, theme = nullable text, driver = nullable text, risk = nullable text], {{\"AI\", \"AI compute\", \"Training and inference acceleration\", \"Custom accelerators; efficiency improvements; capital-spending cycles\"},",
+                "{\"MEM\", \"AI memory\", \"Bandwidth and capacity requirements\", \"Memory pricing cycles; capacity expansion; technology substitution\"},",
+                "{\"NET\", \"AI networking\", \"Larger connected compute systems\", \"Architecture changes; optics adoption timing; customer concentration\"},",
+                "{\"PWR\", \"Power electronics\", \"Conversion efficiency and electrification\", \"Grid delays; price competition; material substitution\"},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Intelligence near sensors and devices\", \"Vehicle cycles; adoption economics; qualification times\"},",
+                "{\"IND\", \"Industrial embedded\", \"Automation and connected equipment\", \"Industrial capex cycles; slower retrofits; long product lives\"},",
+                "{\"EDA\", \"Design tools and packaging\", \"Chip complexity and heterogeneous integration\", \"Customer concentration; design productivity; capacity bottlenecks\"}})"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "company_theme",
+        "columns": [
+          {
+            "name": "company_id",
+            "dataType": "string",
+            "sourceColumn": "company_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "theme_id",
+            "dataType": "string",
+            "sourceColumn": "theme_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "source_id",
+            "dataType": "string",
+            "sourceColumn": "source_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "relationship",
+            "dataType": "string",
+            "sourceColumn": "relationship",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "interpretation",
+            "dataType": "string",
+            "sourceColumn": "interpretation",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "company",
+            "dataType": "string",
+            "sourceColumn": "company",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "theme",
+            "dataType": "string",
+            "sourceColumn": "theme",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "documented_link",
+            "dataType": "int64",
+            "sourceColumn": "documented_link",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "company_theme",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "#table(type table [company_id = nullable text, theme_id = nullable text, source_id = nullable text, relationship = nullable text, interpretation = nullable text, company = nullable text, theme = nullable text, documented_link = Int64.Type], {{\"NVDA\", \"AI\", \"S07\", \"documented product or business relevance\", \"qualitative mapping; not revenue allocation\", \"NVIDIA\", \"AI compute\", 1},",
+                "{\"NVDA\", \"NET\", \"S17\", \"documented product or business relevance\", \"qualitative mapping; not revenue allocation\", \"NVIDIA\", \"AI networking\", 1},",
+                "{\"IFX\", \"PWR\", \"S15\", \"documented product or business relevance\", \"qualitative mapping; not revenue allocation\", \"Infineon\", \"Power electronics\", 1},",
+                "{\"IFX\", \"EDGE\", \"S15\", \"documented product or business relevance\", \"qualitative mapping; not revenue allocation\", \"Infineon\", \"Automotive and edge AI\", 1},",
+                "{\"IFX\", \"IND\", \"S15\", \"documented product or business relevance\", \"qualitative mapping; not revenue allocation\", \"Infineon\", \"Industrial embedded\", 1},",
+                "{\"NXPI\", \"EDGE\", \"S08\", \"documented product or business relevance\", \"qualitative mapping; not revenue allocation\", \"NXP\", \"Automotive and edge AI\", 1},",
+                "{\"NXPI\", \"IND\", \"S08\", \"documented product or business relevance\", \"qualitative mapping; not revenue allocation\", \"NXP\", \"Industrial embedded\", 1},",
+                "{\"TXN\", \"PWR\", \"S16\", \"documented product or business relevance\", \"qualitative mapping; not revenue allocation\", \"Texas Instruments\", \"Power electronics\", 1},",
+                "{\"TXN\", \"IND\", \"S16\", \"documented product or business relevance\", \"qualitative mapping; not revenue allocation\", \"Texas Instruments\", \"Industrial embedded\", 1},",
+                "{\"TXN\", \"EDGE\", \"S16\", \"documented product or business relevance\", \"qualitative mapping; not revenue allocation\", \"Texas Instruments\", \"Automotive and edge AI\", 1},",
+                "{\"SIE\", \"EDA\", \"S11\", \"documented product or business relevance\", \"qualitative mapping; not revenue allocation\", \"Siemens EDA\", \"Design tools and packaging\", 1},",
+                "{\"TSM\", \"EDA\", \"S13\", \"documented product or business relevance\", \"qualitative mapping; not revenue allocation\", \"TSMC\", \"Design tools and packaging\", 1},",
+                "{\"SKH\", \"MEM\", \"S14\", \"documented product or business relevance\", \"qualitative mapping; not revenue allocation\", \"SK hynix\", \"AI memory\", 1}})"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "assumptions",
+        "columns": [
+          {
+            "name": "theme_id",
+            "dataType": "string",
+            "sourceColumn": "theme_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "scenario",
+            "dataType": "string",
+            "sourceColumn": "scenario",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "base_year",
+            "dataType": "int64",
+            "sourceColumn": "base_year",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "early_end",
+            "dataType": "int64",
+            "sourceColumn": "early_end",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "end_year",
+            "dataType": "int64",
+            "sourceColumn": "end_year",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "early_growth",
+            "dataType": "double",
+            "sourceColumn": "early_growth",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "late_growth",
+            "dataType": "double",
+            "sourceColumn": "late_growth",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "basis",
+            "dataType": "string",
+            "sourceColumn": "basis",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "rationale",
+            "dataType": "string",
+            "sourceColumn": "rationale",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "assumptions",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "#table(type table [theme_id = nullable text, scenario = nullable text, base_year = Int64.Type, early_end = Int64.Type, end_year = Int64.Type, early_growth = nullable number, late_growth = nullable number, basis = nullable text, rationale = nullable text], {{\"AI\", \"Conservative\", 2026, 2030, 2036, 0.05, 0.03, \"analyst_assumption\", \"Illustrative sensitivity range for training and inference acceleration. Not a fitted or externally published market forecast.\"},",
+                "{\"AI\", \"Base\", 2026, 2030, 2036, 0.12, 0.08, \"analyst_assumption\", \"Illustrative sensitivity range for training and inference acceleration. Not a fitted or externally published market forecast.\"},",
+                "{\"AI\", \"Accelerated\", 2026, 2030, 2036, 0.18, 0.12, \"analyst_assumption\", \"Illustrative sensitivity range for training and inference acceleration. Not a fitted or externally published market forecast.\"},",
+                "{\"MEM\", \"Conservative\", 2026, 2030, 2036, 0.04, 0.02, \"analyst_assumption\", \"Illustrative sensitivity range for bandwidth and capacity requirements. Not a fitted or externally published market forecast.\"},",
+                "{\"MEM\", \"Base\", 2026, 2030, 2036, 0.1, 0.07, \"analyst_assumption\", \"Illustrative sensitivity range for bandwidth and capacity requirements. Not a fitted or externally published market forecast.\"},",
+                "{\"MEM\", \"Accelerated\", 2026, 2030, 2036, 0.16, 0.11, \"analyst_assumption\", \"Illustrative sensitivity range for bandwidth and capacity requirements. Not a fitted or externally published market forecast.\"},",
+                "{\"NET\", \"Conservative\", 2026, 2030, 2036, 0.04, 0.02, \"analyst_assumption\", \"Illustrative sensitivity range for larger connected compute systems. Not a fitted or externally published market forecast.\"},",
+                "{\"NET\", \"Base\", 2026, 2030, 2036, 0.09, 0.07, \"analyst_assumption\", \"Illustrative sensitivity range for larger connected compute systems. Not a fitted or externally published market forecast.\"},",
+                "{\"NET\", \"Accelerated\", 2026, 2030, 2036, 0.14, 0.1, \"analyst_assumption\", \"Illustrative sensitivity range for larger connected compute systems. Not a fitted or externally published market forecast.\"},",
+                "{\"PWR\", \"Conservative\", 2026, 2030, 2036, 0.02, 0.02, \"analyst_assumption\", \"Illustrative sensitivity range for conversion efficiency and electrification. Not a fitted or externally published market forecast.\"},",
+                "{\"PWR\", \"Base\", 2026, 2030, 2036, 0.07, 0.06, \"analyst_assumption\", \"Illustrative sensitivity range for conversion efficiency and electrification. Not a fitted or externally published market forecast.\"},",
+                "{\"PWR\", \"Accelerated\", 2026, 2030, 2036, 0.11, 0.09, \"analyst_assumption\", \"Illustrative sensitivity range for conversion efficiency and electrification. Not a fitted or externally published market forecast.\"},",
+                "{\"EDGE\", \"Conservative\", 2026, 2030, 2036, 0.02, 0.02, \"analyst_assumption\", \"Illustrative sensitivity range for intelligence near sensors and devices. Not a fitted or externally published market forecast.\"},",
+                "{\"EDGE\", \"Base\", 2026, 2030, 2036, 0.06, 0.06, \"analyst_assumption\", \"Illustrative sensitivity range for intelligence near sensors and devices. Not a fitted or externally published market forecast.\"},",
+                "{\"EDGE\", \"Accelerated\", 2026, 2030, 2036, 0.1, 0.1, \"analyst_assumption\", \"Illustrative sensitivity range for intelligence near sensors and devices. Not a fitted or externally published market forecast.\"},",
+                "{\"IND\", \"Conservative\", 2026, 2030, 2036, 0.01, 0.01, \"analyst_assumption\", \"Illustrative sensitivity range for automation and connected equipment. Not a fitted or externally published market forecast.\"},",
+                "{\"IND\", \"Base\", 2026, 2030, 2036, 0.05, 0.04, \"analyst_assumption\", \"Illustrative sensitivity range for automation and connected equipment. Not a fitted or externally published market forecast.\"},",
+                "{\"IND\", \"Accelerated\", 2026, 2030, 2036, 0.08, 0.07, \"analyst_assumption\", \"Illustrative sensitivity range for automation and connected equipment. Not a fitted or externally published market forecast.\"},",
+                "{\"EDA\", \"Conservative\", 2026, 2030, 2036, 0.03, 0.02, \"analyst_assumption\", \"Illustrative sensitivity range for chip complexity and heterogeneous integration. Not a fitted or externally published market forecast.\"},",
+                "{\"EDA\", \"Base\", 2026, 2030, 2036, 0.07, 0.06, \"analyst_assumption\", \"Illustrative sensitivity range for chip complexity and heterogeneous integration. Not a fitted or externally published market forecast.\"},",
+                "{\"EDA\", \"Accelerated\", 2026, 2030, 2036, 0.11, 0.09, \"analyst_assumption\", \"Illustrative sensitivity range for chip complexity and heterogeneous integration. Not a fitted or externally published market forecast.\"}})"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "scenarios",
+        "columns": [
+          {
+            "name": "theme_id",
+            "dataType": "string",
+            "sourceColumn": "theme_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "theme",
+            "dataType": "string",
+            "sourceColumn": "theme",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "scenario",
+            "dataType": "string",
+            "sourceColumn": "scenario",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "year",
+            "dataType": "int64",
+            "sourceColumn": "year",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "index_value",
+            "dataType": "double",
+            "sourceColumn": "index_value",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "basis",
+            "dataType": "string",
+            "sourceColumn": "basis",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "base_year",
+            "dataType": "int64",
+            "sourceColumn": "base_year",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "early_growth",
+            "dataType": "double",
+            "sourceColumn": "early_growth",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "late_growth",
+            "dataType": "double",
+            "sourceColumn": "late_growth",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "scenarios",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "#table(type table [theme_id = nullable text, theme = nullable text, scenario = nullable text, year = Int64.Type, index_value = nullable number, basis = nullable text, base_year = Int64.Type, early_growth = nullable number, late_growth = nullable number], {{\"AI\", \"AI compute\", \"Conservative\", 2026, 100.0, \"analyst_assumption\", 2026, 0.05, 0.03},",
+                "{\"AI\", \"AI compute\", \"Conservative\", 2027, 105.0, \"analyst_assumption\", 2026, 0.05, 0.03},",
+                "{\"AI\", \"AI compute\", \"Conservative\", 2028, 110.25, \"analyst_assumption\", 2026, 0.05, 0.03},",
+                "{\"AI\", \"AI compute\", \"Conservative\", 2029, 115.76250000000002, \"analyst_assumption\", 2026, 0.05, 0.03},",
+                "{\"AI\", \"AI compute\", \"Conservative\", 2030, 121.55062500000003, \"analyst_assumption\", 2026, 0.05, 0.03},",
+                "{\"AI\", \"AI compute\", \"Conservative\", 2031, 125.19714375000002, \"analyst_assumption\", 2026, 0.05, 0.03},",
+                "{\"AI\", \"AI compute\", \"Conservative\", 2032, 128.95305806250002, \"analyst_assumption\", 2026, 0.05, 0.03},",
+                "{\"AI\", \"AI compute\", \"Conservative\", 2033, 132.82164980437503, \"analyst_assumption\", 2026, 0.05, 0.03},",
+                "{\"AI\", \"AI compute\", \"Conservative\", 2034, 136.8062992985063, \"analyst_assumption\", 2026, 0.05, 0.03},",
+                "{\"AI\", \"AI compute\", \"Conservative\", 2035, 140.91048827746147, \"analyst_assumption\", 2026, 0.05, 0.03},",
+                "{\"AI\", \"AI compute\", \"Conservative\", 2036, 145.13780292578534, \"analyst_assumption\", 2026, 0.05, 0.03},",
+                "{\"AI\", \"AI compute\", \"Base\", 2026, 100.0, \"analyst_assumption\", 2026, 0.12, 0.08},",
+                "{\"AI\", \"AI compute\", \"Base\", 2027, 112.00000000000001, \"analyst_assumption\", 2026, 0.12, 0.08},",
+                "{\"AI\", \"AI compute\", \"Base\", 2028, 125.44000000000001, \"analyst_assumption\", 2026, 0.12, 0.08},",
+                "{\"AI\", \"AI compute\", \"Base\", 2029, 140.49280000000005, \"analyst_assumption\", 2026, 0.12, 0.08},",
+                "{\"AI\", \"AI compute\", \"Base\", 2030, 157.35193600000005, \"analyst_assumption\", 2026, 0.12, 0.08},",
+                "{\"AI\", \"AI compute\", \"Base\", 2031, 169.94009088000007, \"analyst_assumption\", 2026, 0.12, 0.08},",
+                "{\"AI\", \"AI compute\", \"Base\", 2032, 183.53529815040008, \"analyst_assumption\", 2026, 0.12, 0.08},",
+                "{\"AI\", \"AI compute\", \"Base\", 2033, 198.2181220024321, \"analyst_assumption\", 2026, 0.12, 0.08},",
+                "{\"AI\", \"AI compute\", \"Base\", 2034, 214.07557176262668, \"analyst_assumption\", 2026, 0.12, 0.08},",
+                "{\"AI\", \"AI compute\", \"Base\", 2035, 231.20161750363684, \"analyst_assumption\", 2026, 0.12, 0.08},",
+                "{\"AI\", \"AI compute\", \"Base\", 2036, 249.6977469039278, \"analyst_assumption\", 2026, 0.12, 0.08},",
+                "{\"AI\", \"AI compute\", \"Accelerated\", 2026, 100.0, \"analyst_assumption\", 2026, 0.18, 0.12},",
+                "{\"AI\", \"AI compute\", \"Accelerated\", 2027, 118.0, \"analyst_assumption\", 2026, 0.18, 0.12},",
+                "{\"AI\", \"AI compute\", \"Accelerated\", 2028, 139.23999999999998, \"analyst_assumption\", 2026, 0.18, 0.12},",
+                "{\"AI\", \"AI compute\", \"Accelerated\", 2029, 164.30319999999998, \"analyst_assumption\", 2026, 0.18, 0.12},",
+                "{\"AI\", \"AI compute\", \"Accelerated\", 2030, 193.87777599999995, \"analyst_assumption\", 2026, 0.18, 0.12},",
+                "{\"AI\", \"AI compute\", \"Accelerated\", 2031, 217.14310911999996, \"analyst_assumption\", 2026, 0.18, 0.12},",
+                "{\"AI\", \"AI compute\", \"Accelerated\", 2032, 243.20028221439998, \"analyst_assumption\", 2026, 0.18, 0.12},",
+                "{\"AI\", \"AI compute\", \"Accelerated\", 2033, 272.38431608012803, \"analyst_assumption\", 2026, 0.18, 0.12},",
+                "{\"AI\", \"AI compute\", \"Accelerated\", 2034, 305.0704340097434, \"analyst_assumption\", 2026, 0.18, 0.12},",
+                "{\"AI\", \"AI compute\", \"Accelerated\", 2035, 341.6788860909126, \"analyst_assumption\", 2026, 0.18, 0.12},",
+                "{\"AI\", \"AI compute\", \"Accelerated\", 2036, 382.6803524218222, \"analyst_assumption\", 2026, 0.18, 0.12},",
+                "{\"MEM\", \"AI memory\", \"Conservative\", 2026, 100.0, \"analyst_assumption\", 2026, 0.04, 0.02},",
+                "{\"MEM\", \"AI memory\", \"Conservative\", 2027, 104.0, \"analyst_assumption\", 2026, 0.04, 0.02},",
+                "{\"MEM\", \"AI memory\", \"Conservative\", 2028, 108.16000000000001, \"analyst_assumption\", 2026, 0.04, 0.02},",
+                "{\"MEM\", \"AI memory\", \"Conservative\", 2029, 112.4864, \"analyst_assumption\", 2026, 0.04, 0.02},",
+                "{\"MEM\", \"AI memory\", \"Conservative\", 2030, 116.98585600000003, \"analyst_assumption\", 2026, 0.04, 0.02},",
+                "{\"MEM\", \"AI memory\", \"Conservative\", 2031, 119.32557312000003, \"analyst_assumption\", 2026, 0.04, 0.02},",
+                "{\"MEM\", \"AI memory\", \"Conservative\", 2032, 121.71208458240002, \"analyst_assumption\", 2026, 0.04, 0.02},",
+                "{\"MEM\", \"AI memory\", \"Conservative\", 2033, 124.14632627404805, \"analyst_assumption\", 2026, 0.04, 0.02},",
+                "{\"MEM\", \"AI memory\", \"Conservative\", 2034, 126.62925279952898, \"analyst_assumption\", 2026, 0.04, 0.02},",
+                "{\"MEM\", \"AI memory\", \"Conservative\", 2035, 129.16183785551956, \"analyst_assumption\", 2026, 0.04, 0.02},",
+                "{\"MEM\", \"AI memory\", \"Conservative\", 2036, 131.74507461262996, \"analyst_assumption\", 2026, 0.04, 0.02},",
+                "{\"MEM\", \"AI memory\", \"Base\", 2026, 100.0, \"analyst_assumption\", 2026, 0.1, 0.07},",
+                "{\"MEM\", \"AI memory\", \"Base\", 2027, 110.00000000000001, \"analyst_assumption\", 2026, 0.1, 0.07},",
+                "{\"MEM\", \"AI memory\", \"Base\", 2028, 121.00000000000001, \"analyst_assumption\", 2026, 0.1, 0.07},",
+                "{\"MEM\", \"AI memory\", \"Base\", 2029, 133.10000000000005, \"analyst_assumption\", 2026, 0.1, 0.07},",
+                "{\"MEM\", \"AI memory\", \"Base\", 2030, 146.41000000000005, \"analyst_assumption\", 2026, 0.1, 0.07},",
+                "{\"MEM\", \"AI memory\", \"Base\", 2031, 156.65870000000007, \"analyst_assumption\", 2026, 0.1, 0.07},",
+                "{\"MEM\", \"AI memory\", \"Base\", 2032, 167.62480900000006, \"analyst_assumption\", 2026, 0.1, 0.07},",
+                "{\"MEM\", \"AI memory\", \"Base\", 2033, 179.3585456300001, \"analyst_assumption\", 2026, 0.1, 0.07},",
+                "{\"MEM\", \"AI memory\", \"Base\", 2034, 191.9136438241001, \"analyst_assumption\", 2026, 0.1, 0.07},",
+                "{\"MEM\", \"AI memory\", \"Base\", 2035, 205.34759889178713, \"analyst_assumption\", 2026, 0.1, 0.07},",
+                "{\"MEM\", \"AI memory\", \"Base\", 2036, 219.72193081421224, \"analyst_assumption\", 2026, 0.1, 0.07},",
+                "{\"MEM\", \"AI memory\", \"Accelerated\", 2026, 100.0, \"analyst_assumption\", 2026, 0.16, 0.11},",
+                "{\"MEM\", \"AI memory\", \"Accelerated\", 2027, 115.99999999999999, \"analyst_assumption\", 2026, 0.16, 0.11},",
+                "{\"MEM\", \"AI memory\", \"Accelerated\", 2028, 134.56, \"analyst_assumption\", 2026, 0.16, 0.11},",
+                "{\"MEM\", \"AI memory\", \"Accelerated\", 2029, 156.08959999999996, \"analyst_assumption\", 2026, 0.16, 0.11},",
+                "{\"MEM\", \"AI memory\", \"Accelerated\", 2030, 181.06393599999996, \"analyst_assumption\", 2026, 0.16, 0.11},",
+                "{\"MEM\", \"AI memory\", \"Accelerated\", 2031, 200.98096895999996, \"analyst_assumption\", 2026, 0.16, 0.11},",
+                "{\"MEM\", \"AI memory\", \"Accelerated\", 2032, 223.0888755456, \"analyst_assumption\", 2026, 0.16, 0.11},",
+                "{\"MEM\", \"AI memory\", \"Accelerated\", 2033, 247.628651855616, \"analyst_assumption\", 2026, 0.16, 0.11},",
+                "{\"MEM\", \"AI memory\", \"Accelerated\", 2034, 274.8678035597338, \"analyst_assumption\", 2026, 0.16, 0.11},",
+                "{\"MEM\", \"AI memory\", \"Accelerated\", 2035, 305.10326195130455, \"analyst_assumption\", 2026, 0.16, 0.11},",
+                "{\"MEM\", \"AI memory\", \"Accelerated\", 2036, 338.66462076594803, \"analyst_assumption\", 2026, 0.16, 0.11},",
+                "{\"NET\", \"AI networking\", \"Conservative\", 2026, 100.0, \"analyst_assumption\", 2026, 0.04, 0.02},",
+                "{\"NET\", \"AI networking\", \"Conservative\", 2027, 104.0, \"analyst_assumption\", 2026, 0.04, 0.02},",
+                "{\"NET\", \"AI networking\", \"Conservative\", 2028, 108.16000000000001, \"analyst_assumption\", 2026, 0.04, 0.02},",
+                "{\"NET\", \"AI networking\", \"Conservative\", 2029, 112.4864, \"analyst_assumption\", 2026, 0.04, 0.02},",
+                "{\"NET\", \"AI networking\", \"Conservative\", 2030, 116.98585600000003, \"analyst_assumption\", 2026, 0.04, 0.02},",
+                "{\"NET\", \"AI networking\", \"Conservative\", 2031, 119.32557312000003, \"analyst_assumption\", 2026, 0.04, 0.02},",
+                "{\"NET\", \"AI networking\", \"Conservative\", 2032, 121.71208458240002, \"analyst_assumption\", 2026, 0.04, 0.02},",
+                "{\"NET\", \"AI networking\", \"Conservative\", 2033, 124.14632627404805, \"analyst_assumption\", 2026, 0.04, 0.02},",
+                "{\"NET\", \"AI networking\", \"Conservative\", 2034, 126.62925279952898, \"analyst_assumption\", 2026, 0.04, 0.02},",
+                "{\"NET\", \"AI networking\", \"Conservative\", 2035, 129.16183785551956, \"analyst_assumption\", 2026, 0.04, 0.02},",
+                "{\"NET\", \"AI networking\", \"Conservative\", 2036, 131.74507461262996, \"analyst_assumption\", 2026, 0.04, 0.02},",
+                "{\"NET\", \"AI networking\", \"Base\", 2026, 100.0, \"analyst_assumption\", 2026, 0.09, 0.07},",
+                "{\"NET\", \"AI networking\", \"Base\", 2027, 109.00000000000001, \"analyst_assumption\", 2026, 0.09, 0.07},",
+                "{\"NET\", \"AI networking\", \"Base\", 2028, 118.81000000000002, \"analyst_assumption\", 2026, 0.09, 0.07},",
+                "{\"NET\", \"AI networking\", \"Base\", 2029, 129.5029, \"analyst_assumption\", 2026, 0.09, 0.07},",
+                "{\"NET\", \"AI networking\", \"Base\", 2030, 141.15816100000004, \"analyst_assumption\", 2026, 0.09, 0.07},",
+                "{\"NET\", \"AI networking\", \"Base\", 2031, 151.03923227000004, \"analyst_assumption\", 2026, 0.09, 0.07},",
+                "{\"NET\", \"AI networking\", \"Base\", 2032, 161.61197852890004, \"analyst_assumption\", 2026, 0.09, 0.07},",
+                "{\"NET\", \"AI networking\", \"Base\", 2033, 172.92481702592306, \"analyst_assumption\", 2026, 0.09, 0.07},",
+                "{\"NET\", \"AI networking\", \"Base\", 2034, 185.02955421773768, \"analyst_assumption\", 2026, 0.09, 0.07},",
+                "{\"NET\", \"AI networking\", \"Base\", 2035, 197.98162301297936, \"analyst_assumption\", 2026, 0.09, 0.07},",
+                "{\"NET\", \"AI networking\", \"Base\", 2036, 211.8403366238879, \"analyst_assumption\", 2026, 0.09, 0.07},",
+                "{\"NET\", \"AI networking\", \"Accelerated\", 2026, 100.0, \"analyst_assumption\", 2026, 0.14, 0.1},",
+                "{\"NET\", \"AI networking\", \"Accelerated\", 2027, 114.00000000000001, \"analyst_assumption\", 2026, 0.14, 0.1},",
+                "{\"NET\", \"AI networking\", \"Accelerated\", 2028, 129.96000000000004, \"analyst_assumption\", 2026, 0.14, 0.1},",
+                "{\"NET\", \"AI networking\", \"Accelerated\", 2029, 148.15440000000004, \"analyst_assumption\", 2026, 0.14, 0.1},",
+                "{\"NET\", \"AI networking\", \"Accelerated\", 2030, 168.8960160000001, \"analyst_assumption\", 2026, 0.14, 0.1},",
+                "{\"NET\", \"AI networking\", \"Accelerated\", 2031, 185.7856176000001, \"analyst_assumption\", 2026, 0.14, 0.1},",
+                "{\"NET\", \"AI networking\", \"Accelerated\", 2032, 204.36417936000015, \"analyst_assumption\", 2026, 0.14, 0.1},",
+                "{\"NET\", \"AI networking\", \"Accelerated\", 2033, 224.80059729600018, \"analyst_assumption\", 2026, 0.14, 0.1},",
+                "{\"NET\", \"AI networking\", \"Accelerated\", 2034, 247.2806570256002, \"analyst_assumption\", 2026, 0.14, 0.1},",
+                "{\"NET\", \"AI networking\", \"Accelerated\", 2035, 272.00872272816025, \"analyst_assumption\", 2026, 0.14, 0.1},",
+                "{\"NET\", \"AI networking\", \"Accelerated\", 2036, 299.2095950009763, \"analyst_assumption\", 2026, 0.14, 0.1},",
+                "{\"PWR\", \"Power electronics\", \"Conservative\", 2026, 100.0, \"analyst_assumption\", 2026, 0.02, 0.02},",
+                "{\"PWR\", \"Power electronics\", \"Conservative\", 2027, 102.0, \"analyst_assumption\", 2026, 0.02, 0.02},",
+                "{\"PWR\", \"Power electronics\", \"Conservative\", 2028, 104.03999999999999, \"analyst_assumption\", 2026, 0.02, 0.02},",
+                "{\"PWR\", \"Power electronics\", \"Conservative\", 2029, 106.12080000000002, \"analyst_assumption\", 2026, 0.02, 0.02},",
+                "{\"PWR\", \"Power electronics\", \"Conservative\", 2030, 108.243216, \"analyst_assumption\", 2026, 0.02, 0.02},",
+                "{\"PWR\", \"Power electronics\", \"Conservative\", 2031, 110.40808032000001, \"analyst_assumption\", 2026, 0.02, 0.02},",
+                "{\"PWR\", \"Power electronics\", \"Conservative\", 2032, 112.61624192640001, \"analyst_assumption\", 2026, 0.02, 0.02},",
+                "{\"PWR\", \"Power electronics\", \"Conservative\", 2033, 114.86856676492802, \"analyst_assumption\", 2026, 0.02, 0.02},",
+                "{\"PWR\", \"Power electronics\", \"Conservative\", 2034, 117.16593810022655, \"analyst_assumption\", 2026, 0.02, 0.02},",
+                "{\"PWR\", \"Power electronics\", \"Conservative\", 2035, 119.5092568622311, \"analyst_assumption\", 2026, 0.02, 0.02},",
+                "{\"PWR\", \"Power electronics\", \"Conservative\", 2036, 121.89944199947573, \"analyst_assumption\", 2026, 0.02, 0.02},",
+                "{\"PWR\", \"Power electronics\", \"Base\", 2026, 100.0, \"analyst_assumption\", 2026, 0.07, 0.06},",
+                "{\"PWR\", \"Power electronics\", \"Base\", 2027, 107.0, \"analyst_assumption\", 2026, 0.07, 0.06},",
+                "{\"PWR\", \"Power electronics\", \"Base\", 2028, 114.49000000000001, \"analyst_assumption\", 2026, 0.07, 0.06},",
+                "{\"PWR\", \"Power electronics\", \"Base\", 2029, 122.50430000000001, \"analyst_assumption\", 2026, 0.07, 0.06},",
+                "{\"PWR\", \"Power electronics\", \"Base\", 2030, 131.07960100000003, \"analyst_assumption\", 2026, 0.07, 0.06},",
+                "{\"PWR\", \"Power electronics\", \"Base\", 2031, 138.94437706000002, \"analyst_assumption\", 2026, 0.07, 0.06},",
+                "{\"PWR\", \"Power electronics\", \"Base\", 2032, 147.28103968360006, \"analyst_assumption\", 2026, 0.07, 0.06},",
+                "{\"PWR\", \"Power electronics\", \"Base\", 2033, 156.11790206461603, \"analyst_assumption\", 2026, 0.07, 0.06},",
+                "{\"PWR\", \"Power electronics\", \"Base\", 2034, 165.48497618849302, \"analyst_assumption\", 2026, 0.07, 0.06},",
+                "{\"PWR\", \"Power electronics\", \"Base\", 2035, 175.41407475980262, \"analyst_assumption\", 2026, 0.07, 0.06},",
+                "{\"PWR\", \"Power electronics\", \"Base\", 2036, 185.93891924539076, \"analyst_assumption\", 2026, 0.07, 0.06},",
+                "{\"PWR\", \"Power electronics\", \"Accelerated\", 2026, 100.0, \"analyst_assumption\", 2026, 0.11, 0.09},",
+                "{\"PWR\", \"Power electronics\", \"Accelerated\", 2027, 111.00000000000001, \"analyst_assumption\", 2026, 0.11, 0.09},",
+                "{\"PWR\", \"Power electronics\", \"Accelerated\", 2028, 123.21000000000002, \"analyst_assumption\", 2026, 0.11, 0.09},",
+                "{\"PWR\", \"Power electronics\", \"Accelerated\", 2029, 136.76310000000004, \"analyst_assumption\", 2026, 0.11, 0.09},",
+                "{\"PWR\", \"Power electronics\", \"Accelerated\", 2030, 151.80704100000005, \"analyst_assumption\", 2026, 0.11, 0.09},",
+                "{\"PWR\", \"Power electronics\", \"Accelerated\", 2031, 165.46967469000006, \"analyst_assumption\", 2026, 0.11, 0.09},",
+                "{\"PWR\", \"Power electronics\", \"Accelerated\", 2032, 180.36194541210008, \"analyst_assumption\", 2026, 0.11, 0.09},",
+                "{\"PWR\", \"Power electronics\", \"Accelerated\", 2033, 196.59452049918912, \"analyst_assumption\", 2026, 0.11, 0.09},",
+                "{\"PWR\", \"Power electronics\", \"Accelerated\", 2034, 214.28802734411616, \"analyst_assumption\", 2026, 0.11, 0.09},",
+                "{\"PWR\", \"Power electronics\", \"Accelerated\", 2035, 233.5739498050866, \"analyst_assumption\", 2026, 0.11, 0.09},",
+                "{\"PWR\", \"Power electronics\", \"Accelerated\", 2036, 254.59560528754443, \"analyst_assumption\", 2026, 0.11, 0.09},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Conservative\", 2026, 100.0, \"analyst_assumption\", 2026, 0.02, 0.02},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Conservative\", 2027, 102.0, \"analyst_assumption\", 2026, 0.02, 0.02},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Conservative\", 2028, 104.03999999999999, \"analyst_assumption\", 2026, 0.02, 0.02},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Conservative\", 2029, 106.12080000000002, \"analyst_assumption\", 2026, 0.02, 0.02},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Conservative\", 2030, 108.243216, \"analyst_assumption\", 2026, 0.02, 0.02},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Conservative\", 2031, 110.40808032000001, \"analyst_assumption\", 2026, 0.02, 0.02},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Conservative\", 2032, 112.61624192640001, \"analyst_assumption\", 2026, 0.02, 0.02},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Conservative\", 2033, 114.86856676492802, \"analyst_assumption\", 2026, 0.02, 0.02},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Conservative\", 2034, 117.16593810022655, \"analyst_assumption\", 2026, 0.02, 0.02},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Conservative\", 2035, 119.5092568622311, \"analyst_assumption\", 2026, 0.02, 0.02},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Conservative\", 2036, 121.89944199947573, \"analyst_assumption\", 2026, 0.02, 0.02},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Base\", 2026, 100.0, \"analyst_assumption\", 2026, 0.06, 0.06},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Base\", 2027, 106.0, \"analyst_assumption\", 2026, 0.06, 0.06},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Base\", 2028, 112.36000000000001, \"analyst_assumption\", 2026, 0.06, 0.06},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Base\", 2029, 119.1016, \"analyst_assumption\", 2026, 0.06, 0.06},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Base\", 2030, 126.24769600000003, \"analyst_assumption\", 2026, 0.06, 0.06},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Base\", 2031, 133.82255776000005, \"analyst_assumption\", 2026, 0.06, 0.06},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Base\", 2032, 141.85191122560005, \"analyst_assumption\", 2026, 0.06, 0.06},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Base\", 2033, 150.36302589913606, \"analyst_assumption\", 2026, 0.06, 0.06},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Base\", 2034, 159.38480745308425, \"analyst_assumption\", 2026, 0.06, 0.06},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Base\", 2035, 168.9478959002693, \"analyst_assumption\", 2026, 0.06, 0.06},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Base\", 2036, 179.08476965428545, \"analyst_assumption\", 2026, 0.06, 0.06},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Accelerated\", 2026, 100.0, \"analyst_assumption\", 2026, 0.1, 0.1},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Accelerated\", 2027, 110.00000000000001, \"analyst_assumption\", 2026, 0.1, 0.1},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Accelerated\", 2028, 121.00000000000001, \"analyst_assumption\", 2026, 0.1, 0.1},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Accelerated\", 2029, 133.10000000000005, \"analyst_assumption\", 2026, 0.1, 0.1},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Accelerated\", 2030, 146.41000000000005, \"analyst_assumption\", 2026, 0.1, 0.1},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Accelerated\", 2031, 161.05100000000007, \"analyst_assumption\", 2026, 0.1, 0.1},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Accelerated\", 2032, 177.1561000000001, \"analyst_assumption\", 2026, 0.1, 0.1},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Accelerated\", 2033, 194.87171000000012, \"analyst_assumption\", 2026, 0.1, 0.1},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Accelerated\", 2034, 214.35888100000014, \"analyst_assumption\", 2026, 0.1, 0.1},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Accelerated\", 2035, 235.79476910000017, \"analyst_assumption\", 2026, 0.1, 0.1},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Accelerated\", 2036, 259.3742460100002, \"analyst_assumption\", 2026, 0.1, 0.1},",
+                "{\"IND\", \"Industrial embedded\", \"Conservative\", 2026, 100.0, \"analyst_assumption\", 2026, 0.01, 0.01},",
+                "{\"IND\", \"Industrial embedded\", \"Conservative\", 2027, 101.0, \"analyst_assumption\", 2026, 0.01, 0.01},",
+                "{\"IND\", \"Industrial embedded\", \"Conservative\", 2028, 102.01, \"analyst_assumption\", 2026, 0.01, 0.01},",
+                "{\"IND\", \"Industrial embedded\", \"Conservative\", 2029, 103.03010000000002, \"analyst_assumption\", 2026, 0.01, 0.01},",
+                "{\"IND\", \"Industrial embedded\", \"Conservative\", 2030, 104.060401, \"analyst_assumption\", 2026, 0.01, 0.01},",
+                "{\"IND\", \"Industrial embedded\", \"Conservative\", 2031, 105.10100501, \"analyst_assumption\", 2026, 0.01, 0.01},",
+                "{\"IND\", \"Industrial embedded\", \"Conservative\", 2032, 106.1520150601, \"analyst_assumption\", 2026, 0.01, 0.01},",
+                "{\"IND\", \"Industrial embedded\", \"Conservative\", 2033, 107.21353521070101, \"analyst_assumption\", 2026, 0.01, 0.01},",
+                "{\"IND\", \"Industrial embedded\", \"Conservative\", 2034, 108.28567056280801, \"analyst_assumption\", 2026, 0.01, 0.01},",
+                "{\"IND\", \"Industrial embedded\", \"Conservative\", 2035, 109.36852726843611, \"analyst_assumption\", 2026, 0.01, 0.01},",
+                "{\"IND\", \"Industrial embedded\", \"Conservative\", 2036, 110.46221254112046, \"analyst_assumption\", 2026, 0.01, 0.01},",
+                "{\"IND\", \"Industrial embedded\", \"Base\", 2026, 100.0, \"analyst_assumption\", 2026, 0.05, 0.04},",
+                "{\"IND\", \"Industrial embedded\", \"Base\", 2027, 105.0, \"analyst_assumption\", 2026, 0.05, 0.04},",
+                "{\"IND\", \"Industrial embedded\", \"Base\", 2028, 110.25, \"analyst_assumption\", 2026, 0.05, 0.04},",
+                "{\"IND\", \"Industrial embedded\", \"Base\", 2029, 115.76250000000002, \"analyst_assumption\", 2026, 0.05, 0.04},",
+                "{\"IND\", \"Industrial embedded\", \"Base\", 2030, 121.55062500000003, \"analyst_assumption\", 2026, 0.05, 0.04},",
+                "{\"IND\", \"Industrial embedded\", \"Base\", 2031, 126.41265000000003, \"analyst_assumption\", 2026, 0.05, 0.04},",
+                "{\"IND\", \"Industrial embedded\", \"Base\", 2032, 131.46915600000005, \"analyst_assumption\", 2026, 0.05, 0.04},",
+                "{\"IND\", \"Industrial embedded\", \"Base\", 2033, 136.72792224000003, \"analyst_assumption\", 2026, 0.05, 0.04},",
+                "{\"IND\", \"Industrial embedded\", \"Base\", 2034, 142.19703912960006, \"analyst_assumption\", 2026, 0.05, 0.04},",
+                "{\"IND\", \"Industrial embedded\", \"Base\", 2035, 147.88492069478406, \"analyst_assumption\", 2026, 0.05, 0.04},",
+                "{\"IND\", \"Industrial embedded\", \"Base\", 2036, 153.80031752257543, \"analyst_assumption\", 2026, 0.05, 0.04},",
+                "{\"IND\", \"Industrial embedded\", \"Accelerated\", 2026, 100.0, \"analyst_assumption\", 2026, 0.08, 0.07},",
+                "{\"IND\", \"Industrial embedded\", \"Accelerated\", 2027, 108.0, \"analyst_assumption\", 2026, 0.08, 0.07},",
+                "{\"IND\", \"Industrial embedded\", \"Accelerated\", 2028, 116.64000000000001, \"analyst_assumption\", 2026, 0.08, 0.07},",
+                "{\"IND\", \"Industrial embedded\", \"Accelerated\", 2029, 125.97120000000001, \"analyst_assumption\", 2026, 0.08, 0.07},",
+                "{\"IND\", \"Industrial embedded\", \"Accelerated\", 2030, 136.04889600000004, \"analyst_assumption\", 2026, 0.08, 0.07},",
+                "{\"IND\", \"Industrial embedded\", \"Accelerated\", 2031, 145.57231872000006, \"analyst_assumption\", 2026, 0.08, 0.07},",
+                "{\"IND\", \"Industrial embedded\", \"Accelerated\", 2032, 155.76238103040006, \"analyst_assumption\", 2026, 0.08, 0.07},",
+                "{\"IND\", \"Industrial embedded\", \"Accelerated\", 2033, 166.66574770252805, \"analyst_assumption\", 2026, 0.08, 0.07},",
+                "{\"IND\", \"Industrial embedded\", \"Accelerated\", 2034, 178.33235004170504, \"analyst_assumption\", 2026, 0.08, 0.07},",
+                "{\"IND\", \"Industrial embedded\", \"Accelerated\", 2035, 190.81561454462442, \"analyst_assumption\", 2026, 0.08, 0.07},",
+                "{\"IND\", \"Industrial embedded\", \"Accelerated\", 2036, 204.17270756274814, \"analyst_assumption\", 2026, 0.08, 0.07},",
+                "{\"EDA\", \"Design tools and packaging\", \"Conservative\", 2026, 100.0, \"analyst_assumption\", 2026, 0.03, 0.02},",
+                "{\"EDA\", \"Design tools and packaging\", \"Conservative\", 2027, 103.0, \"analyst_assumption\", 2026, 0.03, 0.02},",
+                "{\"EDA\", \"Design tools and packaging\", \"Conservative\", 2028, 106.08999999999999, \"analyst_assumption\", 2026, 0.03, 0.02},",
+                "{\"EDA\", \"Design tools and packaging\", \"Conservative\", 2029, 109.2727, \"analyst_assumption\", 2026, 0.03, 0.02},",
+                "{\"EDA\", \"Design tools and packaging\", \"Conservative\", 2030, 112.55088100000002, \"analyst_assumption\", 2026, 0.03, 0.02},",
+                "{\"EDA\", \"Design tools and packaging\", \"Conservative\", 2031, 114.80189862000002, \"analyst_assumption\", 2026, 0.03, 0.02},",
+                "{\"EDA\", \"Design tools and packaging\", \"Conservative\", 2032, 117.09793659240002, \"analyst_assumption\", 2026, 0.03, 0.02},",
+                "{\"EDA\", \"Design tools and packaging\", \"Conservative\", 2033, 119.43989532424804, \"analyst_assumption\", 2026, 0.03, 0.02},",
+                "{\"EDA\", \"Design tools and packaging\", \"Conservative\", 2034, 121.82869323073298, \"analyst_assumption\", 2026, 0.03, 0.02},",
+                "{\"EDA\", \"Design tools and packaging\", \"Conservative\", 2035, 124.26526709534764, \"analyst_assumption\", 2026, 0.03, 0.02},",
+                "{\"EDA\", \"Design tools and packaging\", \"Conservative\", 2036, 126.7505724372546, \"analyst_assumption\", 2026, 0.03, 0.02},",
+                "{\"EDA\", \"Design tools and packaging\", \"Base\", 2026, 100.0, \"analyst_assumption\", 2026, 0.07, 0.06},",
+                "{\"EDA\", \"Design tools and packaging\", \"Base\", 2027, 107.0, \"analyst_assumption\", 2026, 0.07, 0.06},",
+                "{\"EDA\", \"Design tools and packaging\", \"Base\", 2028, 114.49000000000001, \"analyst_assumption\", 2026, 0.07, 0.06},",
+                "{\"EDA\", \"Design tools and packaging\", \"Base\", 2029, 122.50430000000001, \"analyst_assumption\", 2026, 0.07, 0.06},",
+                "{\"EDA\", \"Design tools and packaging\", \"Base\", 2030, 131.07960100000003, \"analyst_assumption\", 2026, 0.07, 0.06},",
+                "{\"EDA\", \"Design tools and packaging\", \"Base\", 2031, 138.94437706000002, \"analyst_assumption\", 2026, 0.07, 0.06},",
+                "{\"EDA\", \"Design tools and packaging\", \"Base\", 2032, 147.28103968360006, \"analyst_assumption\", 2026, 0.07, 0.06},",
+                "{\"EDA\", \"Design tools and packaging\", \"Base\", 2033, 156.11790206461603, \"analyst_assumption\", 2026, 0.07, 0.06},",
+                "{\"EDA\", \"Design tools and packaging\", \"Base\", 2034, 165.48497618849302, \"analyst_assumption\", 2026, 0.07, 0.06},",
+                "{\"EDA\", \"Design tools and packaging\", \"Base\", 2035, 175.41407475980262, \"analyst_assumption\", 2026, 0.07, 0.06},",
+                "{\"EDA\", \"Design tools and packaging\", \"Base\", 2036, 185.93891924539076, \"analyst_assumption\", 2026, 0.07, 0.06},",
+                "{\"EDA\", \"Design tools and packaging\", \"Accelerated\", 2026, 100.0, \"analyst_assumption\", 2026, 0.11, 0.09},",
+                "{\"EDA\", \"Design tools and packaging\", \"Accelerated\", 2027, 111.00000000000001, \"analyst_assumption\", 2026, 0.11, 0.09},",
+                "{\"EDA\", \"Design tools and packaging\", \"Accelerated\", 2028, 123.21000000000002, \"analyst_assumption\", 2026, 0.11, 0.09},",
+                "{\"EDA\", \"Design tools and packaging\", \"Accelerated\", 2029, 136.76310000000004, \"analyst_assumption\", 2026, 0.11, 0.09},",
+                "{\"EDA\", \"Design tools and packaging\", \"Accelerated\", 2030, 151.80704100000005, \"analyst_assumption\", 2026, 0.11, 0.09},",
+                "{\"EDA\", \"Design tools and packaging\", \"Accelerated\", 2031, 165.46967469000006, \"analyst_assumption\", 2026, 0.11, 0.09},",
+                "{\"EDA\", \"Design tools and packaging\", \"Accelerated\", 2032, 180.36194541210008, \"analyst_assumption\", 2026, 0.11, 0.09},",
+                "{\"EDA\", \"Design tools and packaging\", \"Accelerated\", 2033, 196.59452049918912, \"analyst_assumption\", 2026, 0.11, 0.09},",
+                "{\"EDA\", \"Design tools and packaging\", \"Accelerated\", 2034, 214.28802734411616, \"analyst_assumption\", 2026, 0.11, 0.09},",
+                "{\"EDA\", \"Design tools and packaging\", \"Accelerated\", 2035, 233.5739498050866, \"analyst_assumption\", 2026, 0.11, 0.09},",
+                "{\"EDA\", \"Design tools and packaging\", \"Accelerated\", 2036, 254.59560528754443, \"analyst_assumption\", 2026, 0.11, 0.09}})"
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Scenario index",
+            "expression": "IF(HASONEVALUE(scenarios[theme_id]) && HASONEVALUE(scenarios[scenario]) && HASONEVALUE(scenarios[year]), MAX(scenarios[index_value]))",
+            "formatString": "0.0"
+          }
+        ]
+      },
+      {
+        "name": "latest_company",
+        "columns": [
+          {
+            "name": "company_id",
+            "dataType": "string",
+            "sourceColumn": "company_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "fiscal_year",
+            "dataType": "int64",
+            "sourceColumn": "fiscal_year",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "period_end",
+            "dataType": "string",
+            "sourceColumn": "period_end",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "revenue_millions",
+            "dataType": "int64",
+            "sourceColumn": "revenue_millions",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "currency",
+            "dataType": "string",
+            "sourceColumn": "currency",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "source_id",
+            "dataType": "string",
+            "sourceColumn": "source_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "status",
+            "dataType": "string",
+            "sourceColumn": "status",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "scope",
+            "dataType": "string",
+            "sourceColumn": "scope",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "company",
+            "dataType": "string",
+            "sourceColumn": "company",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "yoy_growth",
+            "dataType": "double",
+            "sourceColumn": "yoy_growth",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "within_company_index",
+            "dataType": "double",
+            "sourceColumn": "within_company_index",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "index_base_fiscal_year",
+            "dataType": "int64",
+            "sourceColumn": "index_base_fiscal_year",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "latest_company",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "#table(type table [company_id = nullable text, fiscal_year = Int64.Type, period_end = nullable text, revenue_millions = Int64.Type, currency = nullable text, source_id = nullable text, status = nullable text, scope = nullable text, company = nullable text, yoy_growth = nullable number, within_company_index = nullable number, index_base_fiscal_year = Int64.Type], {{\"IFX\", 2025, \"2025-09-30\", 14662, \"EUR\", \"S10\", \"reported\", \"consolidated_company_revenue\", \"Infineon\", -0.01959210966232028, 132.56781193490056, 2021},",
+                "{\"NVDA\", 2026, \"2026-01-25\", 215938, \"USD\", \"S07\", \"reported\", \"consolidated_company_revenue\", \"NVIDIA\", 0.6547353579009478, 354.44995239814847, 2024},",
+                "{\"NXPI\", 2025, \"2025-12-31\", 12269, \"USD\", \"S08\", \"reported\", \"consolidated_company_revenue\", \"NXP\", -0.027350562866656047, 97.26494371333439, 2024},",
+                "{\"SKH\", 2025, \"2025-12-31\", 97146700, \"KRW\", \"S14\", \"reported\", \"consolidated_company_revenue\", \"SK hynix\", 0.4676279969181032, 146.76279969181033, 2024},",
+                "{\"TSM\", 2025, \"2025-12-31\", 122420, \"USD\", \"S13\", \"reported\", \"consolidated_company_revenue\", \"TSMC\", 0.35901420959147434, 135.90142095914743, 2024},",
+                "{\"TXN\", 2025, \"2025-12-31\", 17682, \"USD\", \"S09\", \"reported\", \"consolidated_company_revenue\", \"Texas Instruments\", 0.13049037785307838, 113.04903778530783, 2024}})"
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Latest revenue growth",
+            "expression": "IF(HASONEVALUE(latest_company[company_id]), MAX(latest_company[yoy_growth]))",
+            "formatString": "0.0%"
+          }
+        ]
+      },
+      {
+        "name": "scenario_endpoints",
+        "columns": [
+          {
+            "name": "theme_id",
+            "dataType": "string",
+            "sourceColumn": "theme_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "theme",
+            "dataType": "string",
+            "sourceColumn": "theme",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "scenario",
+            "dataType": "string",
+            "sourceColumn": "scenario",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "year",
+            "dataType": "int64",
+            "sourceColumn": "year",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "index_value",
+            "dataType": "double",
+            "sourceColumn": "index_value",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "basis",
+            "dataType": "string",
+            "sourceColumn": "basis",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "base_year",
+            "dataType": "int64",
+            "sourceColumn": "base_year",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "early_growth",
+            "dataType": "double",
+            "sourceColumn": "early_growth",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "late_growth",
+            "dataType": "double",
+            "sourceColumn": "late_growth",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "scenario_endpoints",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "#table(type table [theme_id = nullable text, theme = nullable text, scenario = nullable text, year = Int64.Type, index_value = nullable number, basis = nullable text, base_year = Int64.Type, early_growth = nullable number, late_growth = nullable number], {{\"AI\", \"AI compute\", \"Conservative\", 2036, 145.13780292578534, \"analyst_assumption\", 2026, 0.05, 0.03},",
+                "{\"AI\", \"AI compute\", \"Base\", 2036, 249.6977469039278, \"analyst_assumption\", 2026, 0.12, 0.08},",
+                "{\"AI\", \"AI compute\", \"Accelerated\", 2036, 382.6803524218222, \"analyst_assumption\", 2026, 0.18, 0.12},",
+                "{\"MEM\", \"AI memory\", \"Conservative\", 2036, 131.74507461262996, \"analyst_assumption\", 2026, 0.04, 0.02},",
+                "{\"MEM\", \"AI memory\", \"Base\", 2036, 219.72193081421224, \"analyst_assumption\", 2026, 0.1, 0.07},",
+                "{\"MEM\", \"AI memory\", \"Accelerated\", 2036, 338.66462076594803, \"analyst_assumption\", 2026, 0.16, 0.11},",
+                "{\"NET\", \"AI networking\", \"Conservative\", 2036, 131.74507461262996, \"analyst_assumption\", 2026, 0.04, 0.02},",
+                "{\"NET\", \"AI networking\", \"Base\", 2036, 211.8403366238879, \"analyst_assumption\", 2026, 0.09, 0.07},",
+                "{\"NET\", \"AI networking\", \"Accelerated\", 2036, 299.2095950009763, \"analyst_assumption\", 2026, 0.14, 0.1},",
+                "{\"PWR\", \"Power electronics\", \"Conservative\", 2036, 121.89944199947573, \"analyst_assumption\", 2026, 0.02, 0.02},",
+                "{\"PWR\", \"Power electronics\", \"Base\", 2036, 185.93891924539076, \"analyst_assumption\", 2026, 0.07, 0.06},",
+                "{\"PWR\", \"Power electronics\", \"Accelerated\", 2036, 254.59560528754443, \"analyst_assumption\", 2026, 0.11, 0.09},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Conservative\", 2036, 121.89944199947573, \"analyst_assumption\", 2026, 0.02, 0.02},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Base\", 2036, 179.08476965428545, \"analyst_assumption\", 2026, 0.06, 0.06},",
+                "{\"EDGE\", \"Automotive and edge AI\", \"Accelerated\", 2036, 259.3742460100002, \"analyst_assumption\", 2026, 0.1, 0.1},",
+                "{\"IND\", \"Industrial embedded\", \"Conservative\", 2036, 110.46221254112046, \"analyst_assumption\", 2026, 0.01, 0.01},",
+                "{\"IND\", \"Industrial embedded\", \"Base\", 2036, 153.80031752257543, \"analyst_assumption\", 2026, 0.05, 0.04},",
+                "{\"IND\", \"Industrial embedded\", \"Accelerated\", 2036, 204.17270756274814, \"analyst_assumption\", 2026, 0.08, 0.07},",
+                "{\"EDA\", \"Design tools and packaging\", \"Conservative\", 2036, 126.7505724372546, \"analyst_assumption\", 2026, 0.03, 0.02},",
+                "{\"EDA\", \"Design tools and packaging\", \"Base\", 2036, 185.93891924539076, \"analyst_assumption\", 2026, 0.07, 0.06},",
+                "{\"EDA\", \"Design tools and packaging\", \"Accelerated\", 2036, 254.59560528754443, \"analyst_assumption\", 2026, 0.11, 0.09}})"
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "2036 index",
+            "expression": "IF(HASONEVALUE(scenario_endpoints[theme_id]) && HASONEVALUE(scenario_endpoints[scenario]), MAX(scenario_endpoints[index_value]))",
+            "formatString": "0.0"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "links",
+  "position": {
+    "x": 20,
+    "y": 400,
+    "z": 0,
+    "width": 1240,
+    "height": 290,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "company_theme"
+                    }
+                  },
+                  "Property": "company"
+                }
+              },
+              "queryRef": "company_theme.company",
+              "displayName": "company"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "company_theme"
+                    }
+                  },
+                  "Property": "theme"
+                }
+              },
+              "queryRef": "company_theme.theme",
+              "displayName": "theme"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "company_theme"
+                    }
+                  },
+                  "Property": "source_id"
+                }
+              },
+              "queryRef": "company_theme.source_id",
+              "displayName": "source_id"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "company_theme"
+                    }
+                  },
+                  "Property": "interpretation"
+                }
+              },
+              "queryRef": "company_theme.interpretation",
+              "displayName": "interpretation"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Documented links · not market share or revenue weights'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

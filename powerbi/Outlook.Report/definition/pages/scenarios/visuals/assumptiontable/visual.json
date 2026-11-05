@@ -1,0 +1,115 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "assumptiontable",
+  "position": {
+    "x": 20,
+    "y": 400,
+    "z": 0,
+    "width": 1240,
+    "height": 290,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "assumptions"
+                    }
+                  },
+                  "Property": "theme_id"
+                }
+              },
+              "queryRef": "assumptions.theme_id",
+              "displayName": "theme_id"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "assumptions"
+                    }
+                  },
+                  "Property": "scenario"
+                }
+              },
+              "queryRef": "assumptions.scenario",
+              "displayName": "scenario"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "assumptions"
+                    }
+                  },
+                  "Property": "early_growth"
+                }
+              },
+              "queryRef": "assumptions.early_growth",
+              "displayName": "early_growth"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "assumptions"
+                    }
+                  },
+                  "Property": "late_growth"
+                }
+              },
+              "queryRef": "assumptions.late_growth",
+              "displayName": "late_growth"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "assumptions"
+                    }
+                  },
+                  "Property": "basis"
+                }
+              },
+              "queryRef": "assumptions.basis",
+              "displayName": "basis"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'2027–30 early rate; 2031–36 late rate · edit config/scenarios.json and rebuild'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

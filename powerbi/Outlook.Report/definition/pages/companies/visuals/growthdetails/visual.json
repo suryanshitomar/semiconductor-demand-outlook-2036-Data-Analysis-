@@ -1,0 +1,115 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "growthdetails",
+  "position": {
+    "x": 650,
+    "y": 20,
+    "z": 0,
+    "width": 610,
+    "height": 350,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "latest_company"
+                    }
+                  },
+                  "Property": "company"
+                }
+              },
+              "queryRef": "latest_company.company",
+              "displayName": "company"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "latest_company"
+                    }
+                  },
+                  "Property": "fiscal_year"
+                }
+              },
+              "queryRef": "latest_company.fiscal_year",
+              "displayName": "fiscal_year"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "latest_company"
+                    }
+                  },
+                  "Property": "period_end"
+                }
+              },
+              "queryRef": "latest_company.period_end",
+              "displayName": "period_end"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "latest_company"
+                    }
+                  },
+                  "Property": "currency"
+                }
+              },
+              "queryRef": "latest_company.currency",
+              "displayName": "currency"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "latest_company"
+                    }
+                  },
+                  "Property": "source_id"
+                }
+              },
+              "queryRef": "latest_company.source_id",
+              "displayName": "source_id"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Fiscal period and currency context'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

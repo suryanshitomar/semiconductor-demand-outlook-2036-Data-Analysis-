@@ -1,0 +1,6 @@
+year,value_usd_billions,source_id,selected,status,yoy_growth
+2022,574.1,S01,True,reported,
+2023,526.8,S01,True,reported,-0.08238982755617497
+2024,627.6,S02,False,reported,
+2024,630.5,S03,True,reported,0.19684889901290825
+2025,795.6,S04,True,reported,0.26185567010309274

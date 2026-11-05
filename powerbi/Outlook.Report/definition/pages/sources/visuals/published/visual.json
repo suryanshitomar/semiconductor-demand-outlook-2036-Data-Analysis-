@@ -1,0 +1,129 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "published",
+  "position": {
+    "x": 20,
+    "y": 20,
+    "z": 0,
+    "width": 1240,
+    "height": 260,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "published_outlook"
+                    }
+                  },
+                  "Property": "metric"
+                }
+              },
+              "queryRef": "published_outlook.metric",
+              "displayName": "metric"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "published_outlook"
+                    }
+                  },
+                  "Property": "year"
+                }
+              },
+              "queryRef": "published_outlook.year",
+              "displayName": "year"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "published_outlook"
+                    }
+                  },
+                  "Property": "value"
+                }
+              },
+              "queryRef": "published_outlook.value",
+              "displayName": "value"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "published_outlook"
+                    }
+                  },
+                  "Property": "unit"
+                }
+              },
+              "queryRef": "published_outlook.unit",
+              "displayName": "unit"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "published_outlook"
+                    }
+                  },
+                  "Property": "status"
+                }
+              },
+              "queryRef": "published_outlook.status",
+              "displayName": "status"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "published_outlook"
+                    }
+                  },
+                  "Property": "source_id"
+                }
+              },
+              "queryRef": "published_outlook.source_id",
+              "displayName": "source_id"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Published estimates and forecasts · separate from reported history'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

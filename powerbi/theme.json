@@ -1,0 +1,15 @@
+{
+  "name": "Semiconductor Outlook",
+  "dataColors": [
+    "#007E87",
+    "#386CB0",
+    "#C58530",
+    "#7B61A8",
+    "#B94D4D",
+    "#5C8871",
+    "#586C85"
+  ],
+  "background": "#F6F8FB",
+  "foreground": "#142B43",
+  "tableAccent": "#007E87"
+}

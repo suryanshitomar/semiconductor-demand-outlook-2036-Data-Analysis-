@@ -1,0 +1,17 @@
+company_id,fiscal_year,period_end,revenue_millions,currency,source_id,status,scope,company,yoy_growth,within_company_index,index_base_fiscal_year
+IFX,2021,2021-09-30,11060,EUR,S10,reported,consolidated_company_revenue,Infineon,,100.0,2021
+IFX,2022,2022-09-30,14218,EUR,S10,reported,consolidated_company_revenue,Infineon,0.2855334538878842,128.55334538878841,2021
+IFX,2023,2023-09-30,16309,EUR,S10,reported,consolidated_company_revenue,Infineon,0.14706709804473195,147.45931283905966,2021
+IFX,2024,2024-09-30,14955,EUR,S10,reported,consolidated_company_revenue,Infineon,-0.08302164449077198,135.21699819168174,2021
+IFX,2025,2025-09-30,14662,EUR,S10,reported,consolidated_company_revenue,Infineon,-0.01959210966232028,132.56781193490056,2021
+NVDA,2024,2024-01-28,60922,USD,S06,reported,consolidated_company_revenue,NVIDIA,,100.0,2024
+NVDA,2025,2025-01-26,130497,USD,S06,reported,consolidated_company_revenue,NVIDIA,1.1420340763599355,214.20340763599356,2024
+NVDA,2026,2026-01-25,215938,USD,S07,reported,consolidated_company_revenue,NVIDIA,0.6547353579009478,354.44995239814847,2024
+NXPI,2024,2024-12-31,12614,USD,S08,reported,consolidated_company_revenue,NXP,,100.0,2024
+NXPI,2025,2025-12-31,12269,USD,S08,reported,consolidated_company_revenue,NXP,-0.027350562866656047,97.26494371333439,2024
+SKH,2024,2024-12-31,66193000,KRW,S14,reported,consolidated_company_revenue,SK hynix,,100.0,2024
+SKH,2025,2025-12-31,97146700,KRW,S14,reported,consolidated_company_revenue,SK hynix,0.4676279969181032,146.76279969181033,2024
+TSM,2024,2024-12-31,90080,USD,S13,reported,consolidated_company_revenue,TSMC,,100.0,2024
+TSM,2025,2025-12-31,122420,USD,S13,reported,consolidated_company_revenue,TSMC,0.35901420959147434,135.90142095914743,2024
+TXN,2024,2024-12-31,15641,USD,S09,reported,consolidated_company_revenue,Texas Instruments,,100.0,2024
+TXN,2025,2025-12-31,17682,USD,S09,reported,consolidated_company_revenue,Texas Instruments,0.13049037785307838,113.04903778530783,2024

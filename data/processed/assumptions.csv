@@ -1,0 +1,22 @@
+theme_id,scenario,base_year,early_end,end_year,early_growth,late_growth,basis,rationale
+AI,Conservative,2026,2030,2036,0.05,0.03,analyst_assumption,Illustrative sensitivity range for training and inference acceleration. Not a fitted or externally published market forecast.
+AI,Base,2026,2030,2036,0.12,0.08,analyst_assumption,Illustrative sensitivity range for training and inference acceleration. Not a fitted or externally published market forecast.
+AI,Accelerated,2026,2030,2036,0.18,0.12,analyst_assumption,Illustrative sensitivity range for training and inference acceleration. Not a fitted or externally published market forecast.
+MEM,Conservative,2026,2030,2036,0.04,0.02,analyst_assumption,Illustrative sensitivity range for bandwidth and capacity requirements. Not a fitted or externally published market forecast.
+MEM,Base,2026,2030,2036,0.1,0.07,analyst_assumption,Illustrative sensitivity range for bandwidth and capacity requirements. Not a fitted or externally published market forecast.
+MEM,Accelerated,2026,2030,2036,0.16,0.11,analyst_assumption,Illustrative sensitivity range for bandwidth and capacity requirements. Not a fitted or externally published market forecast.
+NET,Conservative,2026,2030,2036,0.04,0.02,analyst_assumption,Illustrative sensitivity range for larger connected compute systems. Not a fitted or externally published market forecast.
+NET,Base,2026,2030,2036,0.09,0.07,analyst_assumption,Illustrative sensitivity range for larger connected compute systems. Not a fitted or externally published market forecast.
+NET,Accelerated,2026,2030,2036,0.14,0.1,analyst_assumption,Illustrative sensitivity range for larger connected compute systems. Not a fitted or externally published market forecast.
+PWR,Conservative,2026,2030,2036,0.02,0.02,analyst_assumption,Illustrative sensitivity range for conversion efficiency and electrification. Not a fitted or externally published market forecast.
+PWR,Base,2026,2030,2036,0.07,0.06,analyst_assumption,Illustrative sensitivity range for conversion efficiency and electrification. Not a fitted or externally published market forecast.
+PWR,Accelerated,2026,2030,2036,0.11,0.09,analyst_assumption,Illustrative sensitivity range for conversion efficiency and electrification. Not a fitted or externally published market forecast.
+EDGE,Conservative,2026,2030,2036,0.02,0.02,analyst_assumption,Illustrative sensitivity range for intelligence near sensors and devices. Not a fitted or externally published market forecast.
+EDGE,Base,2026,2030,2036,0.06,0.06,analyst_assumption,Illustrative sensitivity range for intelligence near sensors and devices. Not a fitted or externally published market forecast.
+EDGE,Accelerated,2026,2030,2036,0.1,0.1,analyst_assumption,Illustrative sensitivity range for intelligence near sensors and devices. Not a fitted or externally published market forecast.
+IND,Conservative,2026,2030,2036,0.01,0.01,analyst_assumption,Illustrative sensitivity range for automation and connected equipment. Not a fitted or externally published market forecast.
+IND,Base,2026,2030,2036,0.05,0.04,analyst_assumption,Illustrative sensitivity range for automation and connected equipment. Not a fitted or externally published market forecast.
+IND,Accelerated,2026,2030,2036,0.08,0.07,analyst_assumption,Illustrative sensitivity range for automation and connected equipment. Not a fitted or externally published market forecast.
+EDA,Conservative,2026,2030,2036,0.03,0.02,analyst_assumption,Illustrative sensitivity range for chip complexity and heterogeneous integration. Not a fitted or externally published market forecast.
+EDA,Base,2026,2030,2036,0.07,0.06,analyst_assumption,Illustrative sensitivity range for chip complexity and heterogeneous integration. Not a fitted or externally published market forecast.
+EDA,Accelerated,2026,2030,2036,0.11,0.09,analyst_assumption,Illustrative sensitivity range for chip complexity and heterogeneous integration. Not a fitted or externally published market forecast.

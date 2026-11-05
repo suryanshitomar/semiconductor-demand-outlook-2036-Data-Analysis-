@@ -1,0 +1,115 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.0.0/schema.json",
+  "name": "sources",
+  "position": {
+    "x": 20,
+    "y": 320,
+    "z": 0,
+    "width": 1240,
+    "height": 370,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "sources"
+                    }
+                  },
+                  "Property": "source_id"
+                }
+              },
+              "queryRef": "sources.source_id",
+              "displayName": "source_id"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "sources"
+                    }
+                  },
+                  "Property": "title"
+                }
+              },
+              "queryRef": "sources.title",
+              "displayName": "title"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "sources"
+                    }
+                  },
+                  "Property": "url"
+                }
+              },
+              "queryRef": "sources.url",
+              "displayName": "url"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "sources"
+                    }
+                  },
+                  "Property": "published_date"
+                }
+              },
+              "queryRef": "sources.published_date",
+              "displayName": "published_date"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "sources"
+                    }
+                  },
+                  "Property": "accessed_date"
+                }
+              },
+              "queryRef": "sources.accessed_date",
+              "displayName": "accessed_date"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Source register · blank publication date means not established'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
